@@ -333,6 +333,113 @@
             color: var(--accent-secondary);
             text-decoration: none;
         }
+
+        .public-tab-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--text-muted);
+            padding: 0.7rem 1.4rem;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: inherit;
+        }
+        .public-tab-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+        .public-tab-btn.active {
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            color: #fff;
+            border-color: transparent;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.35);
+        }
+
+        .public-match-selector-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: var(--text-muted);
+            padding: 0.55rem 1.1rem;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-family: inherit;
+        }
+        .public-match-selector-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+        .public-match-selector-btn.active {
+            background: rgba(168, 85, 247, 0.25);
+            color: #a855f7;
+            border-color: rgba(168, 85, 247, 0.4);
+            box-shadow: 0 0 12px rgba(168, 85, 247, 0.2);
+        }
+
+        .rules-card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.25rem;
+            margin-top: 1.5rem;
+        }
+        .rules-card {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 14px;
+            padding: 1.25rem;
+        }
+        .rules-card h3 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.85rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            padding-bottom: 0.5rem;
+        }
+        .rules-item {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 0.4rem;
+        }
+        .rules-item strong {
+            color: #fff;
+        }
+        .rules-subheading {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--accent-secondary);
+            margin-top: 0.75rem;
+            margin-bottom: 0.35rem;
+        }
+        .rules-list {
+            padding-left: 1.2rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+        .rules-list li {
+            margin-bottom: 0.25rem;
+        }
+        .rules-badge-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px;
+            margin-bottom: 0.35rem;
+            font-size: 0.85rem;
+        }
+        .rules-badge-item span {
+            color: var(--text-muted);
+        }
+        .rules-badge-item strong {
+            color: var(--gold);
+        }
     </style>
 </head>
 <body>
@@ -342,7 +449,14 @@
             <p class="subtitle"><span class="live-dot"></span> Classificação Oficial ao Vivo</p>
         </header>
 
-        <div class="card">
+        <!-- Navigation Tabs -->
+        <div style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem;">
+            <button id="public-tab-btn-lb" class="public-tab-btn active" onclick="switchPublicTab('lb')">🏆 Classificação Geral</button>
+            <button id="public-tab-btn-rules" class="public-tab-btn" onclick="switchPublicTab('rules')">📜 Regras dos Jogos</button>
+        </div>
+
+        <!-- Leaderboard View -->
+        <div id="public-view-lb" class="card">
             <div class="table-responsive">
                 <table id="leaderboard-table">
                     <thead>
@@ -363,6 +477,19 @@
                         <tr><td colspan="10" style="text-align: center; color: var(--text-muted);">A carregar classificação...</td></tr>
                     </tbody>
                 </table>
+            </div>
+        </div>
+
+        <!-- Rules Spectator View -->
+        <div id="public-view-rules" class="card" style="display: none;">
+            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem;">
+                <h2 style="font-size: 1.3rem; font-weight: 800; color: #fff;">Regras Oficiais das Rondas</h2>
+                <div id="public-rules-match-nav" style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                    <!-- Match selector buttons injected here -->
+                </div>
+            </div>
+            <div id="public-rules-display" class="rules-card-grid">
+                <!-- Rules cards injected here -->
             </div>
         </div>
     </div>
@@ -435,6 +562,146 @@
 
     <script>
         let currentRulesObj = null;
+        let activePublicTab = 'lb';
+        let activeRulesMatchIdx = '1';
+
+        function switchPublicTab(tab) {
+            activePublicTab = tab;
+            document.getElementById('public-tab-btn-lb').classList.toggle('active', tab === 'lb');
+            document.getElementById('public-tab-btn-rules').classList.toggle('active', tab === 'rules');
+
+            document.getElementById('public-view-lb').style.display = tab === 'lb' ? 'block' : 'none';
+            document.getElementById('public-view-rules').style.display = tab === 'rules' ? 'block' : 'none';
+
+            if (tab === 'rules') {
+                renderPublicRules(activeRulesMatchIdx);
+            }
+        }
+
+        function renderPublicRules(selectedMatchIdx = "1") {
+            activeRulesMatchIdx = selectedMatchIdx;
+            if (!currentRulesObj || !currentRulesObj.matches) return;
+
+            const matchesObj = currentRulesObj.matches;
+            const matchKeys = Object.keys(matchesObj).sort((a, b) => parseInt(a) - parseInt(b));
+            if (matchKeys.length === 0) return;
+
+            if (!matchKeys.includes(selectedMatchIdx)) {
+                selectedMatchIdx = matchKeys[0];
+                activeRulesMatchIdx = selectedMatchIdx;
+            }
+
+            const navContainer = document.getElementById('public-rules-match-nav');
+            navContainer.innerHTML = '';
+            matchKeys.forEach(m => {
+                const btn = document.createElement('button');
+                btn.className = `public-match-selector-btn ${m === selectedMatchIdx ? 'active' : ''}`;
+                btn.innerText = `Jogo ${m}`;
+                btn.onclick = () => renderPublicRules(m);
+                navContainer.appendChild(btn);
+            });
+
+            const mRule = matchesObj[selectedMatchIdx] || matchesObj[matchKeys[0]];
+            if (!mRule) return;
+
+            const container = document.getElementById('public-rules-display');
+            container.innerHTML = '';
+
+            const killScoring = mRule.killScoring || {};
+            const basePts = killScoring.basePoints !== undefined ? killScoring.basePoints : (mRule.killBase !== undefined ? mRule.killBase : 1);
+            const thresholds = killScoring.thresholds || [];
+            const botDist = mRule.distinguishBotKills === true;
+            const botPts = mRule.pointsPerBotKill !== undefined ? mRule.pointsPerBotKill : 0;
+            const cap = mRule.killCapPerTeam;
+
+            let killHtml = `
+                <div class="rules-card">
+                    <h3>⚔️ Pontos por Kills & Bónus</h3>
+                    <div class="rules-item">Kill Base: <strong>${basePts} pts</strong></div>
+            `;
+            if (botDist) {
+                killHtml += `<div class="rules-item">Kills de Bots: <strong>${botPts} pts</strong></div>`;
+            }
+            if (cap && cap > 0) {
+                killHtml += `<div class="rules-item">Limite de Kills por Equipa: <strong>Máximo ${cap}</strong></div>`;
+            }
+            if (thresholds.length > 0) {
+                killHtml += `<div class="rules-subheading">Bónus por Sobreviventes:</div><ul class="rules-list">`;
+                thresholds.forEach(t => {
+                    killHtml += `<li>≤ ${t.maxPlayersLeft} Sobreviventes: <strong>${t.points} pts / kill</strong></li>`;
+                });
+                killHtml += `</ul>`;
+            }
+            killHtml += `</div>`;
+
+            const placementPts = mRule.placementPoints || {};
+            let placementHtml = `
+                <div class="rules-card">
+                    <h3>👑 Pontos de Colocação (Placement)</h3>
+                    <div>
+            `;
+            const pKeys = Object.keys(placementPts).sort((a, b) => (parseInt(a) || 0) - (parseInt(b) || 0));
+            if (pKeys.length === 0) {
+                placementHtml += `<div class="rules-item">Sem pontos de placement definidos.</div>`;
+            } else {
+                pKeys.forEach(pk => {
+                    placementHtml += `
+                        <div class="rules-badge-item">
+                            <span>${pk}º Lugar</span>
+                            <strong>${placementPts[pk]} pts</strong>
+                        </div>
+                    `;
+                });
+            }
+            placementHtml += `</div></div>`;
+
+            const spritePts = mRule.pointsPerSpriteCapture || {};
+            let spriteHtml = `
+                <div class="rules-card">
+                    <h3>🔮 Sprites & Elementais</h3>
+                    <div>
+            `;
+            const sKeys = Object.keys(spritePts);
+            if (sKeys.length === 0) {
+                spriteHtml += `<div class="rules-item">Geral / Padrão: <strong>5 pts</strong></div>`;
+            } else {
+                sKeys.forEach(sk => {
+                    const label = sk === "Default" ? "Geral / Padrão" : sk;
+                    spriteHtml += `
+                        <div class="rules-badge-item">
+                            <span>${label}</span>
+                            <strong>${spritePts[sk]} pts</strong>
+                        </div>
+                    `;
+                });
+            }
+            spriteHtml += `</div></div>`;
+
+            const rebootDist = mRule.distinguishReboots === true || (mRule.pointsPerReboot && mRule.pointsPerReboot > 0);
+            const rebootPts = mRule.pointsPerReboot || 0;
+            const ignored = mRule.ignoredPlayers || [];
+
+            let extraHtml = `
+                <div class="rules-card">
+                    <h3>🔄 Reboots & Especiais</h3>
+            `;
+            if (rebootDist) {
+                extraHtml += `<div class="rules-item">Pontos por Reboot de Companheiro: <strong>${rebootPts} pts</strong></div>`;
+            } else {
+                extraHtml += `<div class="rules-item">Reboots: <span style="color: var(--text-muted);">Sem bónus ativo</span></div>`;
+            }
+
+            if (ignored.length > 0) {
+                extraHtml += `<div class="rules-subheading" style="color: #ef4444;">🚫 Jogadores Ignorados nesta Ronda:</div><div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem;">`;
+                ignored.forEach(ig => {
+                    extraHtml += `<span class="badge" style="background: rgba(239, 68, 68, 0.15); color: #ef4444; border: 1px solid rgba(239, 68, 68, 0.3);">${ig}</span>`;
+                });
+                extraHtml += `</div>`;
+            }
+            extraHtml += `</div>`;
+
+            container.innerHTML = killHtml + placementHtml + spriteHtml + extraHtml;
+        }
 
         async function loadPublicData() {
             try {
@@ -444,6 +711,9 @@
                         currentRulesObj = await rulesRes.json();
                         if (currentRulesObj.tournamentName) {
                             document.getElementById('title-display').innerText = currentRulesObj.tournamentName;
+                        }
+                        if (activePublicTab === 'rules') {
+                            renderPublicRules(activeRulesMatchIdx);
                         }
                     }
                 } catch (e) { }
