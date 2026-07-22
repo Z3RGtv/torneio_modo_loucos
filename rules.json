@@ -1,1 +1,24 @@
-{"TournamentName":"para teste","Matches":{"1":{"KillScoring":{"BasePoints":1,"Thresholds":[{"MaxPlayersLeft":20,"Points":3},{"MaxPlayersLeft":50,"Points":2}]},"KillCapPerTeam":10,"PlacementPoints":{"1":15,"2":12,"3":10,"4-5":7,"6-10":4},"PointsPerSpriteCapture":{"Default":5,"Category_11511":10},"InvertPlacements":false,"VictoryRoyalePoints":0}},"PlayerAliases":{},"tournamentName":"para teste","matches":{"1":{"killScoring":{"basePoints":-10,"thresholds":[]},"killCapPerTeam":10,"placementPoints":{"1":10,"2":9,"3":8,"4":7,"5":6,"6":5,"7":4,"8":3,"9":2,"10":1},"pointsPerSpriteCapture":{"Default":1},"invertPlacements":false,"victoryRoyalePoints":0,"distinguishBotKills":false,"pointsPerBotKill":2,"distinguishReboots":false,"pointsPerReboot":0,"ignoredPlayers":["marquesrcarol_"]},"2":{"killScoring":{"basePoints":2,"thresholds":[]},"killCapPerTeam":10,"placementPoints":{"1":20,"2":19,"3":18,"4":17,"5":16,"6":15,"7":14,"8":13,"9":12,"10":11,"11":10,"12":9,"13":8,"14":7,"15":6,"16":5,"17":4,"18":3,"19":2,"20":1,"21":0},"pointsPerSpriteCapture":{"Default":1},"invertPlacements":false,"victoryRoyalePoints":0,"distinguishBotKills":false,"pointsPerBotKill":0},"3":{"killScoring":{"basePoints":1,"thresholds":[]},"killCapPerTeam":10,"placementPoints":{"1":0},"pointsPerSpriteCapture":{"Default":1},"invertPlacements":false,"victoryRoyalePoints":0,"distinguishBotKills":false,"pointsPerBotKill":0}},"playerAliases":{}}
+{
+  "TournamentName": "Torneio Modo Loucos",
+  "Matches": {
+    "1": {
+      "KillScoring": {
+        "BasePoints": 1,
+        "Thresholds": []
+      },
+      "KillCapPerTeam": 10,
+      "PlacementPoints": {},
+      "PointsPerSpriteCapture": {
+        "Default": 5
+      },
+      "InvertPlacements": false,
+      "VictoryRoyalePoints": 0,
+      "DistinguishBotKills": false,
+      "PointsPerBotKill": 0,
+      "DistinguishReboots": false,
+      "PointsPerReboot": 0,
+      "IgnoredPlayers": []
+    }
+  },
+  "PlayerAliases": {}
+}
