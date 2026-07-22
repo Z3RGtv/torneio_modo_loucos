@@ -1,75 +1,16 @@
 [
   {
-    "PlayerName": "marquesrcarol_",
-    "TotalKills": 1,
-    "TotalTeamKills": 1,
-    "TotalKillPoints": 2,
-    "TotalPlacementPoints": 29,
-    "TotalSpritePoints": 3,
-    "TotalVictoryRoyalePoints": 0,
-    "TotalReboots": 0,
-    "TotalTeamReboots": 0,
-    "TotalRebootPoints": 0,
-    "TotalPoints": 34,
-    "MatchesCount": 2,
-    "VictoryRoyalesCount": 1,
-    "MatchScores": {
-      "1": {
-        "PlayerName": "marquesrcarol_",
-        "TeamIndex": 4,
-        "Kills": 0,
-        "KillPoints": 0,
-        "Placement": 2,
-        "PlacementPoints": 9,
-        "SpritePoints": 2,
-        "VictoryRoyale": false,
-        "VictoryRoyalePoints": 0,
-        "Reboots": 0,
-        "TeamReboots": 0,
-        "RebootPoints": 0,
-        "TotalPoints": 11,
-        "HumanKills": 0,
-        "BotKills": 0,
-        "TeamHumanKills": 0,
-        "TeamBotKills": 0
-      },
-      "2": {
-        "PlayerName": "marquesrcarol_",
-        "TeamIndex": 4,
-        "Kills": 1,
-        "KillPoints": 2,
-        "Placement": 1,
-        "PlacementPoints": 20,
-        "SpritePoints": 1,
-        "VictoryRoyale": true,
-        "VictoryRoyalePoints": 0,
-        "Reboots": 0,
-        "TeamReboots": 0,
-        "RebootPoints": 0,
-        "TotalPoints": 23,
-        "HumanKills": 2,
-        "BotKills": 0,
-        "TeamHumanKills": 2,
-        "TeamBotKills": 0
-      }
-    },
-    "TotalHumanKills": 2,
-    "TotalBotKills": 0,
-    "TotalTeamHumanKills": 2,
-    "TotalTeamBotKills": 0
-  },
-  {
     "PlayerName": "Twitch_Z3RGtv",
     "TotalKills": 0,
     "TotalTeamKills": 0,
     "TotalKillPoints": 0,
-    "TotalPlacementPoints": 27,
+    "TotalPlacementPoints": 28,
     "TotalSpritePoints": 2,
     "TotalVictoryRoyalePoints": 0,
     "TotalReboots": 0,
     "TotalTeamReboots": 0,
     "TotalRebootPoints": 0,
-    "TotalPoints": 29,
+    "TotalPoints": 30,
     "MatchesCount": 2,
     "VictoryRoyalesCount": 0,
     "MatchScores": {
@@ -78,19 +19,20 @@
         "TeamIndex": 5,
         "Kills": 0,
         "KillPoints": 0,
-        "Placement": 3,
-        "PlacementPoints": 8,
+        "Placement": 2,
+        "PlacementPoints": 9,
         "SpritePoints": 0,
         "VictoryRoyale": false,
         "VictoryRoyalePoints": 0,
         "Reboots": 0,
         "TeamReboots": 0,
         "RebootPoints": 0,
-        "TotalPoints": 8,
+        "TotalPoints": 9,
         "HumanKills": 1,
         "BotKills": 0,
         "TeamHumanKills": 1,
-        "TeamBotKills": 0
+        "TeamBotKills": 0,
+        "BroughtElementalFromLobby": true
       },
       "2": {
         "PlayerName": "Twitch_Z3RGtv",
@@ -109,7 +51,49 @@
         "HumanKills": 1,
         "BotKills": 0,
         "TeamHumanKills": 1,
-        "TeamBotKills": 0
+        "TeamBotKills": 0,
+        "BroughtElementalFromLobby": true
+      }
+    },
+    "TotalHumanKills": 2,
+    "TotalBotKills": 0,
+    "TotalTeamHumanKills": 2,
+    "TotalTeamBotKills": 0
+  },
+  {
+    "PlayerName": "marquesrcarol_",
+    "TotalKills": 1,
+    "TotalTeamKills": 1,
+    "TotalKillPoints": 2,
+    "TotalPlacementPoints": 20,
+    "TotalSpritePoints": 1,
+    "TotalVictoryRoyalePoints": 0,
+    "TotalReboots": 0,
+    "TotalTeamReboots": 0,
+    "TotalRebootPoints": 0,
+    "TotalPoints": 23,
+    "MatchesCount": 1,
+    "VictoryRoyalesCount": 1,
+    "MatchScores": {
+      "2": {
+        "PlayerName": "marquesrcarol_",
+        "TeamIndex": 4,
+        "Kills": 1,
+        "KillPoints": 2,
+        "Placement": 1,
+        "PlacementPoints": 20,
+        "SpritePoints": 1,
+        "VictoryRoyale": true,
+        "VictoryRoyalePoints": 0,
+        "Reboots": 0,
+        "TeamReboots": 0,
+        "RebootPoints": 0,
+        "TotalPoints": 23,
+        "HumanKills": 2,
+        "BotKills": 0,
+        "TeamHumanKills": 2,
+        "TeamBotKills": 0,
+        "BroughtElementalFromLobby": false
       }
     },
     "TotalHumanKills": 2,
@@ -149,7 +133,8 @@
         "HumanKills": 1,
         "BotKills": 0,
         "TeamHumanKills": 1,
-        "TeamBotKills": 0
+        "TeamBotKills": 0,
+        "BroughtElementalFromLobby": true
       },
       "2": {
         "PlayerName": "RStraveler",
@@ -168,7 +153,8 @@
         "HumanKills": 0,
         "BotKills": 0,
         "TeamHumanKills": 0,
-        "TeamBotKills": 0
+        "TeamBotKills": 0,
+        "BroughtElementalFromLobby": false
       }
     },
     "TotalHumanKills": 1,
