@@ -880,7 +880,7 @@
             document.getElementById('legend-sprite-pts').innerText = totalSpritePoints;
             
             const progContainer = document.getElementById('drawer-progression-container');
-            progContainer.innerHTML = generateProgressionSVG(myMatchScores || {});
+            progContainer.innerHTML = generateProgressionSVG(myMatchScores || {}, leaderboardList, myName);
             
             const historyContainer = document.getElementById('drawer-matches-history');
             historyContainer.innerHTML = '';
@@ -960,46 +960,119 @@
             document.getElementById('drawer-backdrop').classList.remove('active');
         }
 
-        function generateProgressionSVG(matchScores) {
-            const sortedMatches = Object.keys(matchScores)
-                .map(k => parseInt(k))
-                .sort((a, b) => a - b);
-            
-            if (sortedMatches.length === 0) return '<div style="color: var(--text-muted); font-size: 0.8rem;">Sem dados acumulados</div>';
-            
-            let pointsData = [];
-            let currentSum = 0;
-            sortedMatches.forEach(m => {
-                const sc = matchScores[m.toString()] || matchScores[m];
-                const pts = (sc.KillPoints || sc.killPoints || 0) + (sc.PlacementPoints || sc.placementPoints || 0) + (sc.SpritePoints || sc.spritePoints || 0);
-                currentSum += pts;
-                pointsData.push({ match: m, pts: currentSum });
-            });
-            
-            const maxPts = Math.max(...pointsData.map(d => d.pts), 10);
-            const width = 380;
-            const height = 100;
-            const padX = 35;
-            const padY = 20;
+        function generateProgressionSVG(matchScores, leaderboardList, currentPlayerName) {
+            const top1Player = (leaderboardList && leaderboardList.length > 0) ? leaderboardList[0] : null;
+            const top1Name = top1Player ? (top1Player.PlayerName || top1Player.playerName || '') : '';
+            const isCurrentTop1 = top1Name.toLowerCase() === (currentPlayerName || '').toLowerCase();
 
-            let pointsString = "";
-            let dotsHTML = "";
+            const top1Scores = top1Player ? (top1Player.MatchScores || top1Player.matchScores || {}) : {};
 
-            pointsData.forEach((d, idx) => {
-                const x = pointsData.length === 1 ? width / 2 : padX + (idx / (pointsData.length - 1)) * (width - 2 * padX);
-                const y = height - padY - (d.pts / maxPts) * (height - 2 * padY);
-                
-                pointsString += `${x},${y} `;
-                dotsHTML += `<circle cx="${x}" cy="${y}" r="4" fill="#a855f7" stroke="#fff" stroke-width="2"><title>Jogo ${d.match}: ${d.pts} pts acumulados</title></circle>`;
-                dotsHTML += `<text x="${x}" y="${y - 8}" fill="#94a3b8" font-size="10" text-anchor="middle" font-weight="600">${d.pts}p</text>`;
-                dotsHTML += `<text x="${x}" y="${height - 4}" fill="#64748b" font-size="9" text-anchor="middle">J${d.match}</text>`;
+            const allMatchKeysSet = new Set();
+            Object.keys(matchScores || {}).forEach(k => allMatchKeysSet.add(parseInt(k)));
+            Object.keys(top1Scores || {}).forEach(k => allMatchKeysSet.add(parseInt(k)));
+            const sortedMatches = Array.from(allMatchKeysSet).sort((a, b) => a - b);
+
+            if (sortedMatches.length === 0) return '<div style="color: var(--text-muted); font-size: 0.8rem;">Sem dados de partidas</div>';
+
+            let currentTotal = 0;
+            const playerPoints = [0];
+            sortedMatches.forEach(mIdx => {
+                const mKeyStr = mIdx.toString();
+                const mScore = (matchScores || {})[mKeyStr] || (matchScores || {})[mIdx];
+                if (mScore) {
+                    const killPts = mScore.KillPoints !== undefined ? mScore.KillPoints : (mScore.killPoints || 0);
+                    const placementPts = mScore.PlacementPoints !== undefined ? mScore.PlacementPoints : (mScore.placementPoints || 0);
+                    const spritePts = mScore.SpritePoints !== undefined ? mScore.SpritePoints : (mScore.spritePoints || 0);
+                    currentTotal += (killPts + placementPts + spritePts);
+                }
+                playerPoints.push(currentTotal);
             });
+
+            let top1Total = 0;
+            const top1PointsArr = [0];
+            sortedMatches.forEach(mIdx => {
+                const mKeyStr = mIdx.toString();
+                const mScore = (top1Scores || {})[mKeyStr] || (top1Scores || {})[mIdx];
+                if (mScore) {
+                    const killPts = mScore.KillPoints !== undefined ? mScore.KillPoints : (mScore.killPoints || 0);
+                    const placementPts = mScore.PlacementPoints !== undefined ? mScore.PlacementPoints : (mScore.placementPoints || 0);
+                    const spritePts = mScore.SpritePoints !== undefined ? mScore.SpritePoints : (mScore.spritePoints || 0);
+                    top1Total += (killPts + placementPts + spritePts);
+                }
+                top1PointsArr.push(top1Total);
+            });
+
+            const maxVal = Math.max(...playerPoints, ...top1PointsArr, 10);
+            const width = 360;
+            const height = 110;
+            const paddingX = 25;
+            const paddingY = 20;
+
+            const usableW = width - paddingX * 2;
+            const usableH = height - paddingY * 2;
+
+            const playerCoords = playerPoints.map((p, idx) => {
+                const x = paddingX + (idx / (playerPoints.length - 1)) * usableW;
+                const y = height - paddingY - (p / maxVal) * usableH;
+                return { x, y, val: p };
+            });
+
+            const top1Coords = top1PointsArr.map((p, idx) => {
+                const x = paddingX + (idx / (top1PointsArr.length - 1)) * usableW;
+                const y = height - paddingY - (p / maxVal) * usableH;
+                return { x, y, val: p };
+            });
+
+            let playerPathD = playerCoords.map((pt, i) => (i === 0 ? `M ${pt.x} ${pt.y}` : `L ${pt.x} ${pt.y}`)).join(' ');
+            let top1PathD = top1Coords.map((pt, i) => (i === 0 ? `M ${pt.x} ${pt.y}` : `L ${pt.x} ${pt.y}`)).join(' ');
+
+            let playerDots = '';
+            playerCoords.forEach((pt, idx) => {
+                if (idx > 0) {
+                    playerDots += `
+                        <circle cx="${pt.x}" cy="${pt.y}" r="4" fill="#6366f1" stroke="#fff" stroke-width="1.5" />
+                        <text x="${pt.x}" y="${pt.y + 12}" font-size="8" fill="#6366f1" font-weight="700" text-anchor="middle">${pt.val}p</text>
+                    `;
+                }
+            });
+
+            let top1Dots = '';
+            if (!isCurrentTop1 && top1Player) {
+                top1Coords.forEach((pt, idx) => {
+                    if (idx > 0) {
+                        top1Dots += `
+                            <circle cx="${pt.x}" cy="${pt.y}" r="4" fill="#f59e0b" stroke="#fff" stroke-width="1.5" />
+                            <text x="${pt.x}" y="${pt.y - 6}" font-size="8" fill="#f59e0b" font-weight="700" text-anchor="middle">${pt.val}p</text>
+                        `;
+                    }
+                });
+            }
+
+            let xLabels = '';
+            sortedMatches.forEach((mIdx, idx) => {
+                const x = paddingX + ((idx + 1) / sortedMatches.length) * usableW;
+                xLabels += `<text x="${x}" y="${height - 2}" font-size="8" fill="var(--text-muted)" text-anchor="middle">J${mIdx}</text>`;
+            });
+
+            let legendHtml = `
+                <div style="display: flex; justify-content: center; gap: 1.2rem; margin-top: 0.5rem; font-size: 0.78rem;">
+                    <div style="display: flex; align-items: center; gap: 0.3rem;"><span style="width: 10px; height: 3px; background: #6366f1; border-radius: 2px;"></span> <span>${currentPlayerName}</span></div>
+                    ${!isCurrentTop1 && top1Player ? `<div style="display: flex; align-items: center; gap: 0.3rem;"><span style="width: 10px; height: 3px; background: #f59e0b; border-radius: 2px;"></span> <span style="color: #f59e0b; font-weight: 600;">👑 Top 1 (${top1Name})</span></div>` : '<span style="color: #f59e0b; font-weight: 700;">👑 É o Líder Atual!</span>'}
+                </div>
+            `;
+
+            let top1LineSvg = (!isCurrentTop1 && top1Player) ? `<path d="${top1PathD}" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-dasharray="4 2" stroke-linecap="round" stroke-linejoin="round" />${top1Dots}` : '';
 
             return `
-                <svg width="100%" height="100" viewBox="0 0 ${width} ${height}" style="overflow: visible;">
-                    <polyline fill="none" stroke="#6366f1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="${pointsString.trim()}"/>
-                    ${dotsHTML}
+                <svg width="100%" height="${height}" viewBox="0 0 ${width} ${height}" style="overflow: visible;">
+                    <line x1="${paddingX}" y1="${paddingY}" x2="${width - paddingX}" y2="${paddingY}" stroke="rgba(255,255,255,0.05)" stroke-dasharray="2" />
+                    <line x1="${paddingX}" y1="${height - paddingY}" x2="${width - paddingX}" y2="${height - paddingY}" stroke="rgba(255,255,255,0.1)" />
+                    ${top1LineSvg}
+                    <path d="${playerPathD}" fill="none" stroke="#6366f1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    ${playerDots}
+                    ${xLabels}
                 </svg>
+                ${legendHtml}
             `;
         }
 
