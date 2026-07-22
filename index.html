@@ -679,16 +679,21 @@
 
             const rebootDist = mRule.distinguishReboots === true || (mRule.pointsPerReboot && mRule.pointsPerReboot > 0);
             const rebootPts = mRule.pointsPerReboot || 0;
+            const dyingPts = mRule.pointsPerDyingToPlayer || 0;
             const ignored = mRule.ignoredPlayers || [];
 
             let extraHtml = `
                 <div class="rules-card">
-                    <h3>🔄 Reboots & Especiais</h3>
+                    <h3>🔄 Especiais & Penalizações</h3>
             `;
             if (rebootDist) {
                 extraHtml += `<div class="rules-item">Pontos por Reboot de Companheiro: <strong>${rebootPts} pts</strong></div>`;
             } else {
                 extraHtml += `<div class="rules-item">Reboots: <span style="color: var(--text-muted);">Sem bónus ativo</span></div>`;
+            }
+
+            if (dyingPts !== 0) {
+                extraHtml += `<div class="rules-item" style="margin-top: 0.5rem; color: ${dyingPts < 0 ? '#ef4444' : '#10b981'}; font-weight: 600;">💀 Eliminado por outro Jogador: <strong>${dyingPts > 0 ? '+' : ''}${dyingPts} pts</strong></div>`;
             }
 
             if (ignored.length > 0) {
