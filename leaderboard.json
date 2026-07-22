@@ -5,14 +5,14 @@
     "TotalTeamKills": 0,
     "TotalKillPoints": 0,
     "TotalPlacementPoints": 28,
-    "TotalSpritePoints": 2,
+    "TotalSpritePoints": 3,
     "TotalVictoryRoyalePoints": 0,
     "TotalReboots": 0,
     "TotalTeamReboots": 0,
     "TotalRebootPoints": 0,
-    "TotalPoints": 30,
-    "MatchesCount": 2,
-    "VictoryRoyalesCount": 0,
+    "TotalPoints": 31,
+    "MatchesCount": 3,
+    "VictoryRoyalesCount": 1,
     "MatchScores": {
       "1": {
         "PlayerName": "Twitch_Z3RGtv",
@@ -53,6 +53,26 @@
         "TeamHumanKills": 1,
         "TeamBotKills": 0,
         "BroughtElementalFromLobby": true
+      },
+      "3": {
+        "PlayerName": "Twitch_Z3RGtv",
+        "TeamIndex": 3,
+        "Kills": 0,
+        "KillPoints": 0,
+        "Placement": 1,
+        "PlacementPoints": 0,
+        "SpritePoints": 1,
+        "VictoryRoyale": true,
+        "VictoryRoyalePoints": 0,
+        "Reboots": 0,
+        "TeamReboots": 0,
+        "RebootPoints": 0,
+        "TotalPoints": 1,
+        "HumanKills": 0,
+        "BotKills": 0,
+        "TeamHumanKills": 0,
+        "TeamBotKills": 0,
+        "BroughtElementalFromLobby": false
       }
     },
     "TotalHumanKills": 2,
@@ -72,7 +92,7 @@
     "TotalTeamReboots": 0,
     "TotalRebootPoints": 0,
     "TotalPoints": 23,
-    "MatchesCount": 1,
+    "MatchesCount": 2,
     "VictoryRoyalesCount": 1,
     "MatchScores": {
       "2": {
@@ -94,11 +114,31 @@
         "TeamHumanKills": 2,
         "TeamBotKills": 0,
         "BroughtElementalFromLobby": false
+      },
+      "3": {
+        "PlayerName": "marquesrcarol_",
+        "TeamIndex": 4,
+        "Kills": 0,
+        "KillPoints": 0,
+        "Placement": 2,
+        "PlacementPoints": 0,
+        "SpritePoints": 0,
+        "VictoryRoyale": false,
+        "VictoryRoyalePoints": 0,
+        "Reboots": 0,
+        "TeamReboots": 0,
+        "RebootPoints": 0,
+        "TotalPoints": 0,
+        "HumanKills": 1,
+        "BotKills": 0,
+        "TeamHumanKills": 1,
+        "TeamBotKills": 0,
+        "BroughtElementalFromLobby": true
       }
     },
-    "TotalHumanKills": 2,
+    "TotalHumanKills": 3,
     "TotalBotKills": 0,
-    "TotalTeamHumanKills": 2,
+    "TotalTeamHumanKills": 3,
     "TotalTeamBotKills": 0
   },
   {
