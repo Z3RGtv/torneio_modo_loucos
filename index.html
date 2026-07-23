@@ -961,6 +961,8 @@
                     const customName = mRuleItem && mRuleItem.name ? mRuleItem.name : `Jogo ${mIdx}`;
                     const matchHeaderTitle = (customName.toLowerCase().startsWith('jogo ') || customName.toLowerCase().startsWith('jogo:')) ? customName : `Jogo ${mIdx}: ${customName}`;
 
+                    const spritesCaptured = mScore.SpritesCaptured !== undefined ? mScore.SpritesCaptured : (mScore.spritesCaptured !== undefined ? mScore.spritesCaptured : Math.round(spritePts / (spritePtsPerCapture || 1)));
+
                     mCard.innerHTML = `
                         <div class="drawer-match-header">
                             <span>${matchHeaderTitle} - ${teamText}</span>
@@ -970,7 +972,7 @@
                             <div>Colocação: <span>${placement}º</span> (${placementPts} pts)</div>
                             <div>Kills Equipa: <span>${killsDetail}</span> (${killPts} pts)</div>
                             <div>Elemental do Lobby: ${lobbyText}</div>
-                            <div>Sprites Equipa: <span>${Math.round(spritePts / spritePtsPerCapture)}</span> (${spritePts} pts)</div>
+                            <div>Sprites Equipa: <span>${spritesCaptured}</span> (${spritePts} pts)</div>
                             <div style="grid-column: span 2;">Companheiro: <span>${teammateName}</span></div>
                         </div>
                     `;
