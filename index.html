@@ -467,9 +467,7 @@
                             <th>Vitórias 🏆</th>
                             <th>Kills Indiv.</th>
                             <th>Kills Equipa</th>
-                            <th>Pontos Kills</th>
-                            <th>Placement</th>
-                            <th>Pontos Sprites</th>
+                            <th>Pontos Placement</th>
                             <th>Pontos Totais</th>
                         </tr>
                     </thead>
@@ -522,10 +520,6 @@
                     <div class="lbl">Kills Individuais</div>
                     <div class="val" id="stat-individual-kills">0</div>
                 </div>
-                <div class="stat-card">
-                    <div class="lbl">Sprites Extraídos</div>
-                    <div class="val" id="stat-total-sprites" style="color: #10b981;">0</div>
-                </div>
             </div>
 
             <div style="background: rgba(15, 23, 42, 0.6); padding: 1rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.05);">
@@ -535,12 +529,10 @@
                 <div class="contrib-bar-container">
                     <div class="contrib-segment" id="contrib-bar-kill" style="background: #ef4444; width: 0%;" title="Kills"></div>
                     <div class="contrib-segment" id="contrib-bar-placement" style="background: #3b82f6; width: 0%;" title="Placement"></div>
-                    <div class="contrib-segment" id="contrib-bar-sprite" style="background: #a855f7; width: 0%;" title="Sprites"></div>
                 </div>
                 <div style="display: flex; gap: 0.75rem; margin-top: 0.75rem; font-size: 0.75rem; color: var(--text-muted); flex-wrap: wrap;">
                     <div style="display: flex; align-items: center; gap: 0.3rem;"><span style="width: 8px; height: 8px; background: #ef4444; border-radius: 2px;"></span> Kills (<span id="legend-kill-pts">0</span> pts)</div>
                     <div style="display: flex; align-items: center; gap: 0.3rem;"><span style="width: 8px; height: 8px; background: #3b82f6; border-radius: 2px;"></span> Placement (<span id="legend-placement-pts">0</span> pts)</div>
-                    <div style="display: flex; align-items: center; gap: 0.3rem;"><span style="width: 8px; height: 8px; background: #a855f7; border-radius: 2px;"></span> Sprites (<span id="legend-sprite-pts">0</span> pts)</div>
                 </div>
             </div>
 
@@ -673,27 +665,7 @@
             }
             placementHtml += `</div></div>`;
 
-            const spritePts = mRule.pointsPerSpriteCapture || {};
-            let spriteHtml = `
-                <div class="rules-card">
-                    <h3>🔮 Sprites & Elementais</h3>
-                    <div>
-            `;
-            const sKeys = Object.keys(spritePts);
-            if (sKeys.length === 0) {
-                spriteHtml += `<div class="rules-item">Geral / Padrão: <strong>5 pts</strong></div>`;
-            } else {
-                sKeys.forEach(sk => {
-                    const label = sk === "Default" ? "Geral / Padrão" : sk;
-                    spriteHtml += `
-                        <div class="rules-badge-item">
-                            <span>${label}</span>
-                            <strong>${spritePts[sk]} pts</strong>
-                        </div>
-                    `;
-                });
-            }
-            spriteHtml += `</div></div>`;
+
 
             const rebootDist = mRule.distinguishReboots === true || (mRule.pointsPerReboot && mRule.pointsPerReboot > 0);
             const rebootPts = mRule.pointsPerReboot || 0;
@@ -723,7 +695,7 @@
             }
             extraHtml += `</div>`;
 
-            container.innerHTML = killHtml + placementHtml + spriteHtml + extraHtml;
+            container.innerHTML = killHtml + placementHtml + extraHtml;
         }
 
         async function loadPublicData() {
@@ -760,7 +732,6 @@
                     isRebootActive = Object.values(currentRulesObj.matches).some(m => m.distinguishReboots === true || (m.pointsPerReboot && m.pointsPerReboot > 0));
                 }
 
-                const headTr = document.querySelector('#leaderboard-table thead tr');
                 if (headTr) {
                     if (isRebootActive) {
                         headTr.innerHTML = `
@@ -773,7 +744,6 @@
                             <th>Pontos Kills</th>
                             <th>Placement</th>
                             <th>Reboots 🔄</th>
-                            <th>Pontos Sprites</th>
                             <th>Pontos Totais</th>
                         `;
                     } else {
@@ -786,7 +756,6 @@
                             <th>Kills Equipa</th>
                             <th>Pontos Kills</th>
                             <th>Placement</th>
-                            <th>Pontos Sprites</th>
                             <th>Pontos Totais</th>
                         `;
                     }
@@ -807,7 +776,6 @@
                     const totalTeamBotKills = p.totalTeamBotKills !== undefined ? p.totalTeamBotKills : (p.TotalTeamBotKills !== undefined ? p.TotalTeamBotKills : 0);
                     const totalKillPoints = p.totalKillPoints !== undefined ? p.totalKillPoints : (p.TotalKillPoints !== undefined ? p.TotalKillPoints : 0);
                     const totalPlacementPoints = p.totalPlacementPoints !== undefined ? p.totalPlacementPoints : (p.TotalPlacementPoints !== undefined ? p.TotalPlacementPoints : 0);
-                    const totalSpritePoints = p.totalSpritePoints !== undefined ? p.totalSpritePoints : (p.TotalSpritePoints !== undefined ? p.TotalSpritePoints : 0);
                     const totalTeamReboots = p.totalTeamReboots !== undefined ? p.totalTeamReboots : (p.TotalTeamReboots !== undefined ? p.TotalTeamReboots : 0);
                     const totalPoints = p.totalPoints !== undefined ? p.totalPoints : (p.TotalPoints !== undefined ? p.TotalPoints : 0);
 
@@ -833,7 +801,6 @@
                         <td>${totalKillPoints} pts</td>
                         <td>${totalPlacementPoints} pts</td>
                         ${rebootsTd}
-                        <td>${totalSpritePoints} pts</td>
                         <td class="points-col">${totalPoints} pts</td>
                     `;
                     tr.style.cursor = 'pointer';
@@ -853,7 +820,6 @@
             const totalPoints = player.totalPoints !== undefined ? player.totalPoints : (player.TotalPoints !== undefined ? player.TotalPoints : 0);
             const totalKillPoints = player.totalKillPoints !== undefined ? player.totalKillPoints : (player.TotalKillPoints !== undefined ? player.TotalKillPoints : 0);
             const totalPlacementPoints = player.totalPlacementPoints !== undefined ? player.totalPlacementPoints : (player.TotalPlacementPoints !== undefined ? player.TotalPlacementPoints : 0);
-            const totalSpritePoints = player.totalSpritePoints !== undefined ? player.totalSpritePoints : (player.TotalSpritePoints !== undefined ? player.TotalSpritePoints : 0);
             const victoryRoyales = player.victoryRoyalesCount !== undefined ? player.victoryRoyalesCount : (player.VictoryRoyalesCount !== undefined ? player.VictoryRoyalesCount : 0);
             const totalKills = player.totalKills !== undefined ? player.totalKills : (player.TotalKills !== undefined ? player.TotalKills : 0);
             const totalHumanKills = player.totalHumanKills !== undefined ? player.totalHumanKills : (player.TotalHumanKills !== undefined ? player.TotalHumanKills : totalKills);
@@ -886,12 +852,9 @@
                 document.getElementById('stat-individual-kills').style.fontSize = '1.3rem';
             }
             
-            const totalSpritesCaptured = player.totalSpritesCaptured !== undefined ? player.totalSpritesCaptured : (player.TotalSpritesCaptured !== undefined ? player.TotalSpritesCaptured : 0);
-            document.getElementById('stat-total-sprites').innerText = totalSpritesCaptured;
-            
             const killPct = totalPoints > 0 ? (totalKillPoints / totalPoints) * 100 : 0;
             const placementPct = totalPoints > 0 ? (totalPlacementPoints / totalPoints) * 100 : 0;
-            const spritePct = totalPoints > 0 ? (totalSpritePoints / totalPoints) * 100 : 0;
+            const spritePct = 0;
             
             document.getElementById('contrib-bar-kill').style.width = `${killPct}%`;
             document.getElementById('contrib-bar-placement').style.width = `${placementPct}%`;
@@ -899,7 +862,6 @@
             
             document.getElementById('legend-kill-pts').innerText = totalKillPoints;
             document.getElementById('legend-placement-pts').innerText = totalPlacementPoints;
-            document.getElementById('legend-sprite-pts').innerText = totalSpritePoints;
             
             const progContainer = document.getElementById('drawer-progression-container');
             progContainer.innerHTML = generateProgressionSVG(myMatchScores || {}, leaderboardList, myName);
@@ -919,8 +881,7 @@
 
                     const killPts = mScore.KillPoints !== undefined ? mScore.KillPoints : (mScore.killPoints || 0);
                     const placementPts = mScore.PlacementPoints !== undefined ? mScore.PlacementPoints : (mScore.placementPoints || 0);
-                    const spritePts = mScore.SpritePoints !== undefined ? mScore.SpritePoints : (mScore.spritePoints || 0);
-                    const mPoints = killPts + placementPts + spritePts;
+                    const mPoints = killPts + placementPts;
                     
                     const teamIndex = mScore.TeamIndex !== undefined ? mScore.TeamIndex : mScore.teamIndex;
                     const teamText = (teamIndex === undefined || teamIndex >= 10000) ? 'Solo' : `Equipa #${teamIndex}`;
@@ -947,20 +908,14 @@
                     const humanKills = mScore.HumanKills !== undefined ? mScore.HumanKills : (mScore.humanKills || 0);
                     const botKills = mScore.BotKills !== undefined ? mScore.BotKills : (mScore.botKills || 0);
                     const placement = mScore.Placement !== undefined ? mScore.Placement : (mScore.placement || 0);
-                    const broughtLobby = (mScore.BroughtElementalFromLobby !== undefined ? mScore.BroughtElementalFromLobby : mScore.broughtElementalFromLobby) === true;
 
                     const killsDetail = isBotDistinctionActive 
                         ? `${kills} (${humanKills}H / ${botKills}B)` 
                         : `${kills}`;
-                    const lobbyText = broughtLobby 
-                        ? '<span style="color: #a855f7; font-weight: bold;">🔮 Sim</span>' 
-                        : '<span style="color: var(--text-muted);">❌ Não</span>';
                     
                     const mRuleItem = (currentRulesObj && currentRulesObj.matches) ? currentRulesObj.matches[mIdx.toString()] : null;
                     const customName = mRuleItem && mRuleItem.name ? mRuleItem.name : `Jogo ${mIdx}`;
                     const matchHeaderTitle = (customName.toLowerCase().startsWith('jogo ') || customName.toLowerCase().startsWith('jogo:')) ? customName : `Jogo ${mIdx}: ${customName}`;
-
-                    const spritesCaptured = mScore.SpritesCaptured !== undefined ? mScore.SpritesCaptured : (mScore.spritesCaptured !== undefined ? mScore.spritesCaptured : Math.round(spritePts / (spritePtsPerCapture || 1)));
 
                     mCard.innerHTML = `
                         <div class="drawer-match-header">
@@ -970,8 +925,6 @@
                         <div class="drawer-match-details">
                             <div>Colocação: <span>${placement}º</span> (${placementPts} pts)</div>
                             <div>Kills Equipa: <span>${killsDetail}</span> (${killPts} pts)</div>
-                            <div>Elemental do Lobby: ${lobbyText}</div>
-                            <div>Sprites Equipa: <span>${spritesCaptured}</span> (${spritePts} pts)</div>
                             <div style="grid-column: span 2;">Companheiro: <span>${teammateName}</span></div>
                         </div>
                     `;
@@ -1010,8 +963,7 @@
                 if (mScore) {
                     const killPts = mScore.KillPoints !== undefined ? mScore.KillPoints : (mScore.killPoints || 0);
                     const placementPts = mScore.PlacementPoints !== undefined ? mScore.PlacementPoints : (mScore.placementPoints || 0);
-                    const spritePts = mScore.SpritePoints !== undefined ? mScore.SpritePoints : (mScore.spritePoints || 0);
-                    currentTotal += (killPts + placementPts + spritePts);
+                    currentTotal += (killPts + placementPts);
                 }
                 playerPoints.push(currentTotal);
             });
@@ -1024,8 +976,7 @@
                 if (mScore) {
                     const killPts = mScore.KillPoints !== undefined ? mScore.KillPoints : (mScore.killPoints || 0);
                     const placementPts = mScore.PlacementPoints !== undefined ? mScore.PlacementPoints : (mScore.placementPoints || 0);
-                    const spritePts = mScore.SpritePoints !== undefined ? mScore.SpritePoints : (mScore.spritePoints || 0);
-                    top1Total += (killPts + placementPts + spritePts);
+                    top1Total += (killPts + placementPts);
                 }
                 top1PointsArr.push(top1Total);
             });
