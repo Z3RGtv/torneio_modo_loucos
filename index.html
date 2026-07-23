@@ -611,6 +611,20 @@
             const container = document.getElementById('public-rules-display');
             container.innerHTML = '';
 
+            const notesText = mRule.notes ? mRule.notes.trim() : '';
+            if (notesText.length > 0) {
+                const notesCard = document.createElement('div');
+                notesCard.className = 'rules-card';
+                notesCard.style.gridColumn = '1 / -1';
+                notesCard.style.borderLeft = '4px solid #3b82f6';
+                notesCard.style.background = 'rgba(59, 130, 246, 0.08)';
+                notesCard.innerHTML = `
+                    <h3 style="color: #60a5fa; margin-bottom: 0.5rem;">📝 Notas & Instruções desta Ronda</h3>
+                    <div style="color: #e2e8f0; font-size: 0.95rem; line-height: 1.5; white-space: pre-wrap;">${notesText}</div>
+                `;
+                container.appendChild(notesCard);
+            }
+
             const killScoring = mRule.killScoring || {};
             const basePts = killScoring.basePoints !== undefined ? killScoring.basePoints : (mRule.killBase !== undefined ? mRule.killBase : 1);
             const thresholds = killScoring.thresholds || [];
