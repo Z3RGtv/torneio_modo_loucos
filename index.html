@@ -594,9 +594,13 @@
             const navContainer = document.getElementById('public-rules-match-nav');
             navContainer.innerHTML = '';
             matchKeys.forEach(m => {
+                const mRuleItem = matchesObj[m];
+                const customName = mRuleItem && mRuleItem.name ? mRuleItem.name : `Jogo ${m}`;
+                const btnLabel = (customName.toLowerCase().startsWith('jogo ') || customName.toLowerCase().startsWith('jogo:')) ? customName : `Jogo ${m}: ${customName}`;
+                
                 const btn = document.createElement('button');
                 btn.className = `public-match-selector-btn ${m === selectedMatchIdx ? 'active' : ''}`;
-                btn.innerText = `Jogo ${m}`;
+                btn.innerText = btnLabel;
                 btn.onclick = () => renderPublicRules(m);
                 navContainer.appendChild(btn);
             });
@@ -939,9 +943,13 @@
                         ? '<span style="color: #a855f7; font-weight: bold;">🔮 Sim</span>' 
                         : '<span style="color: var(--text-muted);">❌ Não</span>';
                     
+                    const mRuleItem = (currentRulesObj && currentRulesObj.matches) ? currentRulesObj.matches[mIdx.toString()] : null;
+                    const customName = mRuleItem && mRuleItem.name ? mRuleItem.name : `Jogo ${mIdx}`;
+                    const matchHeaderTitle = (customName.toLowerCase().startsWith('jogo ') || customName.toLowerCase().startsWith('jogo:')) ? customName : `Jogo ${mIdx}: ${customName}`;
+
                     mCard.innerHTML = `
                         <div class="drawer-match-header">
-                            <span>Jogo ${mIdx} - ${teamText}</span>
+                            <span>${matchHeaderTitle} - ${teamText}</span>
                             <span style="color: var(--accent-primary);">${mPoints} pts</span>
                         </div>
                         <div class="drawer-match-details">
