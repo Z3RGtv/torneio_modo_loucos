@@ -886,9 +886,8 @@
                 document.getElementById('stat-individual-kills').style.fontSize = '1.3rem';
             }
             
-            const spritePtsPerCapture = (currentRulesObj && currentRulesObj.matches && Object.values(currentRulesObj.matches)[0] && Object.values(currentRulesObj.matches)[0].pointsPerSpriteCapture) ? (Object.values(currentRulesObj.matches)[0].pointsPerSpriteCapture.Default || 5) : 5;
-            const approximateSprites = Math.round(totalSpritePoints / spritePtsPerCapture);
-            document.getElementById('stat-total-sprites').innerText = approximateSprites;
+            const totalSpritesCaptured = player.totalSpritesCaptured !== undefined ? player.totalSpritesCaptured : (player.TotalSpritesCaptured !== undefined ? player.TotalSpritesCaptured : 0);
+            document.getElementById('stat-total-sprites').innerText = totalSpritesCaptured;
             
             const killPct = totalPoints > 0 ? (totalKillPoints / totalPoints) * 100 : 0;
             const placementPct = totalPoints > 0 ? (totalPlacementPoints / totalPoints) * 100 : 0;
