@@ -710,17 +710,26 @@
             }
 
             if (allowedCauses.length > 0) {
-                const weaponNames = allowedCauses.map(c => weaponNamesMap[c] || `Causa ${c}`);
-                extraHtml += `<div class="rules-subheading" style="color: #f59e0b; margin-top: 0.75rem;">⚠️ Armas Permitidas para Kills:</div><div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem; margin-bottom: 0.5rem;">`;
-                weaponNames.forEach(w => {
-                    extraHtml += `<span class="badge" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3);">${w}</span>`;
-                });
-                extraHtml += `</div>`;
-                
-                if (allowEnvKills) {
-                    extraHtml += `<div class="rules-item" style="font-size: 0.8rem; color: #a855f7; margin-top: 0.25rem;">🌀 Permitidas mortes ambientais (Tempestade/Queda) se houver nocauteador.</div>`;
-                } else {
-                    extraHtml += `<div class="rules-item" style="font-size: 0.8rem; color: #ef4444; margin-top: 0.25rem;">🚫 Proibidas mortes ambientais (Tempestade/Queda).</div>`;
+                const filteredCauses = allowedCauses.filter(c => c !== 0 && c !== 1);
+                if (filteredCauses.length > 0) {
+                    const weaponNames = [];
+                    let addedPickaxe = false;
+                    filteredCauses.forEach(c => {
+                        if (c === 7 || c === 8) {
+                            if (!addedPickaxe) {
+                                weaponNames.push("Picareta 🔨");
+                                addedPickaxe = true;
+                            }
+                        } else {
+                            weaponNames.push(weaponNamesMap[c] || `Causa ${c}`);
+                        }
+                    });
+                    
+                    extraHtml += `<div class="rules-subheading" style="color: #f59e0b; margin-top: 0.75rem;">⚠️ Armas Permitidas para Kills:</div><div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem; margin-bottom: 0.5rem;">`;
+                    weaponNames.forEach(w => {
+                        extraHtml += `<span class="badge" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3);">${w}</span>`;
+                    });
+                    extraHtml += `</div>`;
                 }
             }
 
