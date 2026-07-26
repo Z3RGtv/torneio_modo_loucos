@@ -671,6 +671,21 @@
             const rebootPts = mRule.pointsPerReboot || 0;
             const dyingPts = mRule.pointsPerDyingToPlayer || 0;
             const ignored = mRule.ignoredPlayers || [];
+            const allowedCauses = mRule.allowedDeathCauses || [];
+            const allowEnvKills = mRule.allowEnvironmentalKills === true;
+
+            const weaponNamesMap = {
+                8: "Picareta (Capítulo 5) 🔨",
+                7: "Picareta (Antiga) 🔨",
+                17: "Torreta 🤖",
+                3: "Rifle de Assalto 🔫",
+                2: "Espingarda 💥",
+                5: "SMG 🔫",
+                4: "Pistola 🔫",
+                6: "Sniper 🎯",
+                0: "Tempestade 🌀",
+                1: "Dano de Queda 🍂"
+            };
 
             let extraHtml = `
                 <div class="rules-card">
@@ -686,8 +701,23 @@
                 extraHtml += `<div class="rules-item" style="margin-top: 0.5rem; color: ${dyingPts < 0 ? '#ef4444' : '#10b981'}; font-weight: 600;">💀 Eliminado por outro Jogador: <strong>${dyingPts > 0 ? '+' : ''}${dyingPts} pts</strong></div>`;
             }
 
+            if (allowedCauses.length > 0) {
+                const weaponNames = allowedCauses.map(c => weaponNamesMap[c] || `Causa ${c}`);
+                extraHtml += `<div class="rules-subheading" style="color: #f59e0b; margin-top: 0.75rem;">⚠️ Armas Permitidas para Kills:</div><div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem; margin-bottom: 0.5rem;">`;
+                weaponNames.forEach(w => {
+                    extraHtml += `<span class="badge" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3);">${w}</span>`;
+                });
+                extraHtml += `</div>`;
+                
+                if (allowEnvKills) {
+                    extraHtml += `<div class="rules-item" style="font-size: 0.8rem; color: #a855f7; margin-top: 0.25rem;">🌀 Permitidas mortes ambientais (Tempestade/Queda) se houver nocauteador.</div>`;
+                } else {
+                    extraHtml += `<div class="rules-item" style="font-size: 0.8rem; color: #ef4444; margin-top: 0.25rem;">🚫 Proibidas mortes ambientais (Tempestade/Queda).</div>`;
+                }
+            }
+
             if (ignored.length > 0) {
-                extraHtml += `<div class="rules-subheading" style="color: #ef4444;">🚫 Jogadores Ignorados nesta Ronda:</div><div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem;">`;
+                extraHtml += `<div class="rules-subheading" style="color: #ef4444; margin-top: 0.75rem;">🚫 Jogadores Ignorados nesta Ronda:</div><div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem;">`;
                 ignored.forEach(ig => {
                     extraHtml += `<span class="badge" style="background: rgba(239, 68, 68, 0.15); color: #ef4444; border: 1px solid rgba(239, 68, 68, 0.3);">${ig}</span>`;
                 });
@@ -720,6 +750,8 @@
                 const body = document.getElementById('leaderboard-body');
                 body.innerHTML = '';
                 
+                const headTr = document.querySelector('#leaderboard-table thead tr');
+
                 if (!leaderboard || leaderboard.length === 0) {
                     body.innerHTML = '<tr><td colspan="10" style="text-align: center; color: var(--text-muted);">Nenhum dado de classificação disponível no momento.</td></tr>';
                     return;
@@ -743,7 +775,7 @@
                             <th>Kills Equipa</th>
                             <th>Pontos Kills</th>
                             <th>Placement</th>
-                            <th>Reboots 🔄</th>
+                            <th>Reboots 💜</th>
                             <th>Pontos Totais</th>
                         `;
                     } else {
@@ -787,7 +819,7 @@
                     const indivKillsText = isBotDistinctionActive ? `${totalKills} <span style="font-size:0.75rem; opacity:0.7;">(${totalHumanKills}H / ${totalBotKills}B)</span>` : `${totalKills}`;
                     const teamKillsText = isBotDistinctionActive ? `${totalTeamKills} <span style="font-size:0.75rem; opacity:0.7;">(${totalTeamHumanKills}H / ${totalTeamBotKills}B)</span>` : `${totalTeamKills}`;
 
-                    let rebootsTd = isRebootActive ? `<td><span class="badge" style="background: rgba(168, 85, 247, 0.15); color: #a855f7; border: 1px solid rgba(168, 85, 247, 0.25);">🔄 ${totalTeamReboots}</span></td>` : '';
+                    let rebootsTd = isRebootActive ? `<td><span class="badge" style="background: rgba(168, 85, 247, 0.15); color: #a855f7; border: 1px solid rgba(168, 85, 247, 0.25);">💜 ${totalTeamReboots}</span></td>` : '';
 
                     let rankClass = displayRank === 1 ? 'rank-1' : (displayRank === 2 ? 'rank-2' : (displayRank === 3 ? 'rank-3' : ''));
                     const tr = document.createElement('tr');
