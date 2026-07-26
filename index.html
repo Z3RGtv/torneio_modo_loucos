@@ -486,6 +486,7 @@
                     <!-- Match selector buttons injected here -->
                 </div>
             </div>
+            <div id="public-rules-notes"></div>
             <div id="public-rules-display" class="rules-card-grid">
                 <!-- Rules cards injected here -->
             </div>
@@ -602,12 +603,16 @@
 
             const container = document.getElementById('public-rules-display');
             container.innerHTML = '';
+            const notesContainer = document.getElementById('public-rules-notes');
+            if (notesContainer) {
+                notesContainer.innerHTML = '';
+            }
 
             let notesHtml = '';
             const notesText = mRule.notes ? mRule.notes.trim() : '';
             if (notesText.length > 0) {
                 notesHtml = `
-                    <div class="rules-card" style="grid-column: 1 / -1; border-left: 4px solid #3b82f6; background: rgba(59, 130, 246, 0.08);">
+                    <div class="rules-card" style="border-left: 4px solid #3b82f6; background: rgba(59, 130, 246, 0.08); margin-bottom: 1.25rem;">
                         <h3 style="color: #60a5fa; margin-bottom: 0.5rem;">📝 Notas & Instruções desta Ronda</h3>
                         <div style="color: #e2e8f0; font-size: 0.95rem; line-height: 1.5; white-space: pre-wrap;">${notesText}</div>
                     </div>
@@ -742,7 +747,10 @@
             }
             extraHtml += `</div>`;
 
-            container.innerHTML = notesHtml + killHtml + placementHtml + extraHtml;
+            if (notesContainer) {
+                notesContainer.innerHTML = notesHtml;
+            }
+            container.innerHTML = killHtml + placementHtml + extraHtml;
         }
 
         async function loadPublicData() {
