@@ -663,6 +663,17 @@
                     `;
                 });
             }
+
+            if (mRule.invertPlacements === true) {
+                placementHtml += `
+                    <div style="background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.2); color: #f59e0b; padding: 0.75rem; border-radius: 8px; font-size: 0.85rem; margin-top: 1rem; line-height: 1.4; grid-column: 1 / -1; display: flex; align-items: flex-start; gap: 0.5rem;">
+                        <span>⚠️</span>
+                        <div>
+                            <strong>Tabela Invertida Ativa:</strong> Nesta ronda, o objetivo é morrer primeiro! Quem for eliminado mais cedo (ex: último lugar) recebe a pontuação do 1º Lugar configurado acima.
+                        </div>
+                    </div>
+                `;
+            }
             placementHtml += `</div></div>`;
 
 
