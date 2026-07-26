@@ -680,7 +680,9 @@
 
 
 
-            const rebootDist = mRule.distinguishReboots === true || (mRule.pointsPerReboot && mRule.pointsPerReboot > 0);
+            const rebootDist = mRule.distinguishReboots === true || 
+                               (mRule.pointsPerReboot && mRule.pointsPerReboot > 0) ||
+                               (mRule.progressiveRebootPoints && mRule.progressiveRebootPoints.length > 0);
             const rebootPts = mRule.pointsPerReboot || 0;
             const dyingPts = mRule.pointsPerDyingToPlayer || 0;
             const ignored = mRule.ignoredPlayers || [];
@@ -705,7 +707,12 @@
                     <h3>🔄 Especiais & Penalizações</h3>
             `;
             if (rebootDist) {
-                extraHtml += `<div class="rules-item">Pontos por Reboot de Companheiro: <strong>${rebootPts} pts</strong></div>`;
+                if (mRule.progressiveRebootPoints && mRule.progressiveRebootPoints.length > 0) {
+                    const steps = mRule.progressiveRebootPoints.map((pts, idx) => `${idx + 1}º=${pts}pts`).join(', ');
+                    extraHtml += `<div class="rules-item" style="line-height: 1.4;">Pontos por Reboot (Crescente): <strong style="color: #a855f7;">${steps}</strong> <span style="font-size: 0.8rem; opacity: 0.7;">(reboots seguintes repetem o último valor)</span></div>`;
+                } else {
+                    extraHtml += `<div class="rules-item">Pontos por Reboot de Companheiro: <strong>${rebootPts} pts</strong></div>`;
+                }
             } else {
                 extraHtml += `<div class="rules-item">Reboots: <span style="color: var(--text-muted);">Sem bónus ativo</span></div>`;
             }
