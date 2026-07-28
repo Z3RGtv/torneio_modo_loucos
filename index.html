@@ -981,6 +981,11 @@
                     const customName = mRuleItem && mRuleItem.name ? mRuleItem.name : `Jogo ${mIdx}`;
                     const matchHeaderTitle = (customName.toLowerCase().startsWith('jogo ') || customName.toLowerCase().startsWith('jogo:')) ? customName : `Jogo ${mIdx}: ${customName}`;
 
+                    const adjPts = mScore.AdjustmentPoints !== undefined ? mScore.AdjustmentPoints : (mScore.adjustmentPoints || 0);
+                    const adjHtml = adjPts !== 0 
+                        ? `<div style="grid-column: span 2; color: ${adjPts > 0 ? '#10b981' : '#ef4444'}; font-weight: 600;">⚖️ Ajuste Manual: <span>${adjPts > 0 ? '+' : ''}${adjPts} pts</span></div>` 
+                        : '';
+
                     mCard.innerHTML = `
                         <div class="drawer-match-header">
                             <span>${matchHeaderTitle} - ${teamText}</span>
@@ -990,6 +995,7 @@
                             <div>Colocação: <span>${placement}º</span> (${placementPts} pts)</div>
                             <div>Kills Equipa: <span>${killsDetail}</span> (${killPts} pts)</div>
                             <div style="grid-column: span 2;">Companheiro: <span>${teammateName}</span></div>
+                            ${adjHtml}
                         </div>
                     `;
                     historyContainer.appendChild(mCard);
