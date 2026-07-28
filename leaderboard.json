@@ -113,8 +113,13 @@
         "BotKills": 0,
         "TeamHumanKills": 7,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 4,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em AUR marreiros com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em AUR marreiros com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em AUR marreiros com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em AUR marreiros com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "AUR marreiros",
@@ -144,14 +149,18 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 33,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 6,
+    "TotalWarnings": 10,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em AUR marreiros com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em AUR marreiros com Causa 16 \uD83C\uDF00 (Perda de 50 pontos)",
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em JMarceloCP com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)",
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Luazinha2808 com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)",
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em hugoandre10 com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)",
-      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Salvador-vensedo com Causa 50 \uD83C\uDF00 (C\u00F3digo 50)"
+      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Salvador-vensedo com Causa 50 \uD83C\uDF00 (C\u00F3digo 50)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em AUR marreiros com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em AUR marreiros com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em AUR marreiros com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em AUR marreiros com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -266,8 +275,12 @@
         "BotKills": 0,
         "TeamHumanKills": 7,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 3,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em hugoandre10 com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em zionW9 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em wiffibot\u01C3 com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "wiffibot\u01C3",
@@ -297,12 +310,15 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 33,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 4,
+    "TotalWarnings": 7,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em wiffibot\u01C3 com Torreta \uD83E\uDD16 (Perda de 50 pontos)",
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em wiffibot\u01C3 com Causa 16 \uD83C\uDF00 (Perda de 50 pontos)",
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em adzm7913 com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)",
-      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Gui_Z-as com Torreta \uD83E\uDD16 (C\u00F3digo 17)"
+      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Gui_Z-as com Torreta \uD83E\uDD16 (C\u00F3digo 17)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em hugoandre10 com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em zionW9 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em wiffibot\u01C3 com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -414,8 +430,10 @@
         "BotKills": 0,
         "TeamHumanKills": 9,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em \u1D31\u1DA6\u1D50\u1D49\u1DBBiPowerlz com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "\u1D31\u1DA6\u1D50\u1D49\u1DBBiPowerlz",
@@ -447,10 +465,11 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 18,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 3,
+    "TotalWarnings": 4,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em \u1D31\u1DA6\u1D50\u1D49\u1DBBiPowerlz com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em \u1D31\u1DA6\u1D50\u1D49\u1DBBiPowerlz com Causa 16 \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em \u1D31\u1DA6\u1D50\u1D49\u1DBBiPowerlz com Tempestade \uD83C\uDF00 (Perda de 1 pontos)",
       "Jogo 5: Efetuou elimina\u00E7\u00E3o proibida em NeonKillerPT com Causa 38 \uD83C\uDF00 (C\u00F3digo 38)"
     ]
   },
@@ -562,8 +581,15 @@
         "BotKills": 0,
         "TeamHumanKills": 9,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 6,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Dianaisabelcp com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em free Aura\u3006 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em free Aura\u3006 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em free Aura\u3006 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em free Aura\u3006 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em free Aura\u3006 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "free Aura\u3006",
@@ -593,10 +619,16 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 28,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 8,
     "TotalWarningReasons": [
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Roknoklok21 com Causa 50 \uD83C\uDF00 (C\u00F3digo 50)",
-      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em FRAGGER NITE7 com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)"
+      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em FRAGGER NITE7 com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Dianaisabelcp com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em free Aura\u3006 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em free Aura\u3006 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em free Aura\u3006 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em free Aura\u3006 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em free Aura\u3006 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -714,8 +746,12 @@
         "BotKills": 0,
         "TeamHumanKills": 9,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 3,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em free Aura\u3006 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Westrafael com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Salvador-vensedo com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "Salvador-vensedo",
@@ -745,7 +781,7 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 31,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 7,
+    "TotalWarnings": 10,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em Salvador-vensedo com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em MIAUSCULO32 com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 50 pontos)",
@@ -753,7 +789,10 @@
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em Salvador-vensedo com Causa 16 \uD83C\uDF00 (Perda de 50 pontos)",
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Salva10_b com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)",
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em pirata_andryyxr com Torreta \uD83E\uDD16 (C\u00F3digo 17)",
-      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em wiffibot\u01C3 com Torreta \uD83E\uDD16 (C\u00F3digo 17)"
+      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em wiffibot\u01C3 com Torreta \uD83E\uDD16 (C\u00F3digo 17)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em free Aura\u3006 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Westrafael com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Salvador-vensedo com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -868,8 +907,17 @@
         "BotKills": 0,
         "TeamHumanKills": 9,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 8,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em hugoandre10 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em hugoandre10 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em hugoandre10 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em hugoandre10 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em hugoandre10 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em hugoandre10 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em hugoandre10 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em hugoandre10 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "hugoandre10",
@@ -899,12 +947,20 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 19,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 4,
+    "TotalWarnings": 12,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em hugoandre10 com Torreta \uD83E\uDD16 (Perda de 50 pontos)",
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em hugoandre10 com Causa 16 \uD83C\uDF00 (Perda de 50 pontos)",
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em touro_23 com Desconhecido \uD83C\uDF00 (Perda de 50 pontos)",
-      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Mia90525 com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)"
+      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Mia90525 com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em hugoandre10 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em hugoandre10 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em hugoandre10 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em hugoandre10 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em hugoandre10 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em hugoandre10 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em hugoandre10 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em hugoandre10 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -1014,8 +1070,18 @@
         "BotKills": 0,
         "TeamHumanKills": 13,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 9,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Djinho80 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em PCC_Diogx_18 com Espingarda \uD83D\uDCA5 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "pirata_andryyxr",
@@ -1045,9 +1111,18 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 20,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 10,
     "TotalWarningReasons": [
-      "Jogo 1: Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 1: Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Djinho80 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em PCC_Diogx_18 com Espingarda \uD83D\uDCA5 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -1162,8 +1237,13 @@
         "BotKills": 0,
         "TeamHumanKills": 13,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 4,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em AUR marreiros com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em \u1D31\u1DA6\u1D50\u1D49\u1DBB san7izin com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em manu123321_ com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em AUR marreiros com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "PRIME_STORM\uC6C3",
@@ -1193,13 +1273,17 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 21,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 5,
+    "TotalWarnings": 9,
     "TotalWarningReasons": [
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em PRIME_STORM\uC6C3 com Desconhecido \uD83C\uDF00 (Perda de 50 pontos)",
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em i have low zoom com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)",
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em free Aura\u3006 com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)",
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em ilianesantospt com Torreta \uD83E\uDD16 (C\u00F3digo 17)",
-      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em gsantos-2009 com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)"
+      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em gsantos-2009 com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em AUR marreiros com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em \u1D31\u1DA6\u1D50\u1D49\u1DBB san7izin com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em manu123321_ com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em AUR marreiros com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)"
     ]
   },
   {
@@ -1309,8 +1393,14 @@
         "BotKills": 0,
         "TeamHumanKills": 7,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 5,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Bananinha_27 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em ttk rafnzin com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Bananinha_27 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Bananinha_27 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "Bananinha_27",
@@ -1340,9 +1430,14 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 13,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 6,
     "TotalWarningReasons": [
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Bananinha_27 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Bananinha_27 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Bananinha_27 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em ttk rafnzin com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Bananinha_27 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Bananinha_27 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -1454,8 +1549,11 @@
         "BotKills": 0,
         "TeamHumanKills": 7,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 2,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em ttk rafnzin com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Davod_peres com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "Davod_peres",
@@ -1485,10 +1583,12 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 13,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 4,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em Davod_peres com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Davod_peres com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Davod_peres com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em ttk rafnzin com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Davod_peres com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -1600,8 +1700,15 @@
         "BotKills": 0,
         "TeamHumanKills": 7,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 6,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em santiboy2014 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Azores \u1D37\u2071\u207F\u1D4D\u1D3E\u1D40 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Azores \u1D37\u2071\u207F\u1D4D\u1D3E\u1D40 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Azores \u1D37\u2071\u207F\u1D4D\u1D3E\u1D40 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Azores \u1D37\u2071\u207F\u1D4D\u1D3E\u1D40 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Azores \u1D37\u2071\u207F\u1D4D\u1D3E\u1D40 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "Azores \u1D37\u2071\u207F\u1D4D\u1D3E\u1D40",
@@ -1631,10 +1738,16 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 12,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 8,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em Azores \u1D37\u2071\u207F\u1D4D\u1D3E\u1D40 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Azores \u1D37\u2071\u207F\u1D4D\u1D3E\u1D40 com Causa 16 \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Azores \u1D37\u2071\u207F\u1D4D\u1D3E\u1D40 com Causa 16 \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em santiboy2014 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Azores \u1D37\u2071\u207F\u1D4D\u1D3E\u1D40 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Azores \u1D37\u2071\u207F\u1D4D\u1D3E\u1D40 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Azores \u1D37\u2071\u207F\u1D4D\u1D3E\u1D40 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Azores \u1D37\u2071\u207F\u1D4D\u1D3E\u1D40 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Azores \u1D37\u2071\u207F\u1D4D\u1D3E\u1D40 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -1793,8 +1906,13 @@
         "BotKills": 0,
         "TeamHumanKills": 6,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 4,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Gui_Z-as com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Gui_Z-as com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Gui_Z-as com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Gui_Z-as com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "Gui_Z-as",
@@ -1826,8 +1944,12 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 9,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 5,
     "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Gui_Z-as com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Gui_Z-as com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Gui_Z-as com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Gui_Z-as com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
       "Jogo 5: Efetuou elimina\u00E7\u00E3o proibida em G0D EL1TE com Causa 38 \uD83C\uDF00 (C\u00F3digo 38)"
     ]
   },
@@ -1892,8 +2014,11 @@
         "BotKills": 0,
         "TeamHumanKills": 6,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 2,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em EimezDuMiPiMa com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em EimezDuMiPiMa com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "EimezDuMiPiMa",
@@ -1923,9 +2048,11 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 9,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
-      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em HERO Kant7 com Torreta \uD83E\uDD16 (C\u00F3digo 17)"
+      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em HERO Kant7 com Torreta \uD83E\uDD16 (C\u00F3digo 17)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em EimezDuMiPiMa com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em EimezDuMiPiMa com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -2037,8 +2164,11 @@
         "BotKills": 0,
         "TeamHumanKills": 5,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 2,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Luazinha2808 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em G0D EL1TE com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "G0D EL1TE",
@@ -2068,10 +2198,12 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 9,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 4,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em G0D EL1TE com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em G0D EL1TE com Causa 16 \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em G0D EL1TE com Causa 16 \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Luazinha2808 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em G0D EL1TE com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -2181,8 +2313,10 @@
         "BotKills": 0,
         "TeamHumanKills": 10,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Artpower99 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "Artpower99",
@@ -2214,9 +2348,10 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 13,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em Artpower99 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Artpower99 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)",
       "Jogo 5: Efetuou elimina\u00E7\u00E3o proibida em Artpower99 com Causa 50 \uD83C\uDF00 (C\u00F3digo 50)"
     ]
   },
@@ -2327,8 +2462,11 @@
         "BotKills": 0,
         "TeamHumanKills": 4,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 2,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em r_moreira16 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em r_moreira16 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "r_moreira16",
@@ -2358,9 +2496,11 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 6,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
-      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Andr\u00E9 StarBoy com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)"
+      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Andr\u00E9 StarBoy com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em r_moreira16 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em r_moreira16 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -2473,8 +2613,11 @@
         "BotKills": 0,
         "TeamHumanKills": 2,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 2,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em manu123321_ com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em manu123321_ com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "manu123321_",
@@ -2506,11 +2649,13 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 8,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 4,
+    "TotalWarnings": 6,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em manu123321_ com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Dani_Seal11 com Causa 16 \uD83C\uDF00 (C\u00F3digo 16)",
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em G0D EL1TE com Causa 16 \uD83C\uDF00 (C\u00F3digo 16)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em manu123321_ com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em manu123321_ com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
       "Jogo 5: Efetuou elimina\u00E7\u00E3o proibida em Vit\u00F3ria_142 com Causa 38 \uD83C\uDF00 (C\u00F3digo 38)"
     ]
   },
@@ -2767,8 +2912,10 @@
         "BotKills": 0,
         "TeamHumanKills": 6,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em MA SA5930 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "MA SA5930",
@@ -2798,9 +2945,10 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 10,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 2,
     "TotalWarningReasons": [
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em MA SA5930 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em MA SA5930 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em MA SA5930 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -2911,18 +3059,21 @@
         "BotKills": 0,
         "TeamHumanKills": 4,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Roknoklok21 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 4,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 9,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em JMarceloCP com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)",
-      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Tomezinho12 com Torreta \uD83E\uDD16 (C\u00F3digo 17)"
+      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Tomezinho12 com Torreta \uD83E\uDD16 (C\u00F3digo 17)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Roknoklok21 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -3034,18 +3185,25 @@
         "BotKills": 0,
         "TeamHumanKills": 4,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 3,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Salva10_b com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Salva10_b com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Salva10_b com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 6,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 10,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 5,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em Salva10_b com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Salva10_b com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Salva10_b com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Salva10_b com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Salva10_b com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Salva10_b com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -3156,8 +3314,10 @@
         "BotKills": 0,
         "TeamHumanKills": 7,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Tomezinho12 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "Tomezinho12",
@@ -3187,10 +3347,11 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 12,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em r_moreira16 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
-      "Jogo 1: Efetuou elimina\u00E7\u00E3o em Tomezinho12 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 1: Efetuou elimina\u00E7\u00E3o em Tomezinho12 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Tomezinho12 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -3275,16 +3436,36 @@
         "BotKills": 0,
         "TeamHumanKills": 10,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 9,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 9,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 11,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 0,
-    "TotalWarningReasons": []
+    "TotalWarnings": 9,
+    "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Artpower2011 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+    ]
   },
   {
     "PlayerName": "TiagoPachecoVsc",
@@ -3293,13 +3474,13 @@
     "TotalKillPoints": 0,
     "TotalPlacementPoints": 65,
     "TotalVictoryRoyalePoints": 0,
-    "TotalReboots": 1,
-    "TotalTeamReboots": 1,
+    "TotalReboots": 0,
+    "TotalTeamReboots": 0,
     "TotalRebootPoints": 0,
     "TotalDyingToPlayerPoints": 0,
     "TotalAdjustmentPoints": 0,
     "TotalPoints": 65,
-    "MatchesCount": 4,
+    "MatchesCount": 3,
     "VictoryRoyalesCount": 0,
     "MatchScores": {
       "1": {
@@ -3341,29 +3522,6 @@
         "DyingToPlayerPoints": 0,
         "AdjustmentPoints": 0,
         "TotalPoints": 65,
-        "HumanKills": 0,
-        "BotKills": 0,
-        "TeamHumanKills": 0,
-        "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
-      },
-      "3": {
-        "PlayerName": "TiagoPachecoVsc",
-        "TeamIndex": 13,
-        "Kills": 0,
-        "KillPoints": 0,
-        "Placement": 29,
-        "PlacementPoints": 0,
-        "VictoryRoyale": false,
-        "VictoryRoyalePoints": 0,
-        "Reboots": 1,
-        "TeamReboots": 1,
-        "RebootPoints": 0,
-        "KilledByPlayer": true,
-        "DyingToPlayerPoints": 0,
-        "AdjustmentPoints": 0,
-        "TotalPoints": 0,
         "HumanKills": 0,
         "BotKills": 0,
         "TeamHumanKills": 0,
@@ -3512,8 +3670,10 @@
         "BotKills": 0,
         "TeamHumanKills": 3,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em MIAUSCULO32 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "MIAUSCULO32",
@@ -3543,11 +3703,12 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 7,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 3,
+    "TotalWarnings": 4,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em \u1D31\u1DA6\u1D50\u1D49\u1DBB san7izin com Torreta \uD83E\uDD16 (Perda de 50 pontos)",
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em MIAUSCULO32 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
-      "Jogo 2: Foi eliminado por Salvador-vensedo com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 20 pontos)"
+      "Jogo 2: Foi eliminado por Salvador-vensedo com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 20 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em MIAUSCULO32 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -3754,8 +3915,11 @@
         "BotKills": 0,
         "TeamHumanKills": 6,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 2,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Curumim15 com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em afonso2021 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "afonso2021",
@@ -3785,9 +3949,11 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 9,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em afonso2021 com Espingarda \uD83D\uDCA5 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em afonso2021 com Espingarda \uD83D\uDCA5 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Curumim15 com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em afonso2021 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -3899,8 +4065,11 @@
         "BotKills": 0,
         "TeamHumanKills": 5,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 2,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Westrafael com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em esponja_loira4 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "esponja_loira4",
@@ -3930,10 +4099,12 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 10,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 4,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em esponja_loira4 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em esponja_loira4 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em esponja_loira4 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Westrafael com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em esponja_loira4 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -4043,8 +4214,12 @@
         "BotKills": 0,
         "TeamHumanKills": 5,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 3,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em ricpalas com Causa 23 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em esponja_loira4 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em semyf37 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "semyf37",
@@ -4076,9 +4251,12 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 10,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 5,
     "TotalWarningReasons": [
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em semyf37 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em ricpalas com Causa 23 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em esponja_loira4 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em semyf37 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)",
       "Jogo 5: Efetuou elimina\u00E7\u00E3o proibida em semyf37 com Causa 50 \uD83C\uDF00 (C\u00F3digo 50)"
     ]
   },
@@ -4218,8 +4396,11 @@
         "BotKills": 0,
         "TeamHumanKills": 4,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 2,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Arte_Ksklh0 com Pistola \uD83D\uDD2B (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Arte_Ksklh0 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "Arte_Ksklh0",
@@ -4249,8 +4430,11 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 5,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 0,
-    "TotalWarningReasons": []
+    "TotalWarnings": 2,
+    "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Arte_Ksklh0 com Pistola \uD83D\uDD2B (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Arte_Ksklh0 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+    ]
   },
   {
     "PlayerName": "MartinSm95",
@@ -4459,17 +4643,20 @@
         "BotKills": 0,
         "TeamHumanKills": 1,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Kiko-Mafarrico com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 1,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 2,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 2,
     "TotalWarningReasons": [
-      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em MilhafreTuga com Torreta \uD83E\uDD16 (C\u00F3digo 17)"
+      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em MilhafreTuga com Torreta \uD83E\uDD16 (C\u00F3digo 17)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Kiko-Mafarrico com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -4554,8 +4741,12 @@
         "BotKills": 0,
         "TeamHumanKills": 6,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 3,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Bananinha_27 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Lukinhas2013957 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Lukinhas2013957 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "Lukinhas2013957",
@@ -4588,8 +4779,11 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 10,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 5,
     "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Bananinha_27 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Lukinhas2013957 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Lukinhas2013957 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)",
       "Jogo 5: Efetuou elimina\u00E7\u00E3o proibida em Jogador com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (C\u00F3digo 8)",
       "Jogo 5: Efetuou elimina\u00E7\u00E3o proibida em Jogador com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (C\u00F3digo 8)"
     ]
@@ -4699,16 +4893,24 @@
         "BotKills": 0,
         "TeamHumanKills": 7,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 3,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em AUR marreiros com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Minimus13 com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Minimus13 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 3,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 7,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 0,
-    "TotalWarningReasons": []
+    "TotalWarnings": 3,
+    "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em AUR marreiros com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Minimus13 com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Minimus13 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+    ]
   },
   {
     "PlayerName": "Devy_PTFN",
@@ -4817,8 +5019,10 @@
         "BotKills": 0,
         "TeamHumanKills": 2,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Devy_PTFN com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "Devy_PTFN",
@@ -4848,9 +5052,10 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 6,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 2,
     "TotalWarningReasons": [
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Devy_PTFN com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Devy_PTFN com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Devy_PTFN com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -4960,8 +5165,12 @@
         "BotKills": 0,
         "TeamHumanKills": 3,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 3,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Jogador com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em HERO Kant7 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em HERO Kant7 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "HERO Kant7",
@@ -4991,9 +5200,12 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 6,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 4,
     "TotalWarningReasons": [
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em HERO Kant7 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em HERO Kant7 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Jogador com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em HERO Kant7 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em HERO Kant7 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -5057,8 +5269,11 @@
         "BotKills": 0,
         "TeamHumanKills": 3,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 2,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em gagagagabi-gago com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em gagagagabi-gago com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "gagagagabi-gago",
@@ -5088,9 +5303,11 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 5,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em gagagagabi-gago com Desconhecido \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em gagagagabi-gago com Desconhecido \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em gagagagabi-gago com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em gagagagabi-gago com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -5325,17 +5542,22 @@
         "BotKills": 0,
         "TeamHumanKills": 3,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 2,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em gsantos-2009 com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em gsantos-2009 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 4,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 6,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em gsantos-2009 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em gsantos-2009 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em gsantos-2009 com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em gsantos-2009 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -5422,17 +5644,20 @@
         "BotKills": 0,
         "TeamHumanKills": 3,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em i have low zoom com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 3,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 6,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 2,
     "TotalWarningReasons": [
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em i have low zoom com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em i have low zoom com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em i have low zoom com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -5644,18 +5869,21 @@
         "BotKills": 0,
         "TeamHumanKills": 4,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em gandamaluku com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 4,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 8,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em gandamaluku com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
-      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em original_sao8 com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)"
+      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em original_sao8 com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em gandamaluku com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -5888,18 +6116,25 @@
         "BotKills": 0,
         "TeamHumanKills": 4,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 3,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Salva10_b com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em de4dent3s com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em de4dent3s com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 5,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 8,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 5,
     "TotalWarningReasons": [
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em de4dent3s com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
-      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Westrafael com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)"
+      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Westrafael com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Salva10_b com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em de4dent3s com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em de4dent3s com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -6299,8 +6534,11 @@
         "BotKills": 0,
         "TeamHumanKills": 3,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 2,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em zionW9 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em zionW9 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "zionW9",
@@ -6330,9 +6568,11 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 8,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em zionW9 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em zionW9 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em zionW9 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em zionW9 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -6442,8 +6682,15 @@
         "BotKills": 0,
         "TeamHumanKills": 6,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 6,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em MartinSm95 com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em ttk rafnzin com Rifle de Assalto \uD83D\uDD2B (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em JMarceloCP com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Arte_Ksklh0 com Rifle de Assalto \uD83D\uDD2B (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em ilianesantospt com Rifle de Assalto \uD83D\uDD2B (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em PRIME_STORM\uC6C3 com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "PCC_Diogx_18",
@@ -6473,9 +6720,15 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 13,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 7,
     "TotalWarningReasons": [
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em PCC_Diogx_18 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em PCC_Diogx_18 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em MartinSm95 com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em ttk rafnzin com Rifle de Assalto \uD83D\uDD2B (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em JMarceloCP com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Arte_Ksklh0 com Rifle de Assalto \uD83D\uDD2B (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em ilianesantospt com Rifle de Assalto \uD83D\uDD2B (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em PRIME_STORM\uC6C3 com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -6514,8 +6767,13 @@
         "BotKills": 0,
         "TeamHumanKills": 6,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 4,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em gonc4l_m3nd3s com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em gonc4l_m3nd3s com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em esponja_loira4 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em gonc4l_m3nd3s com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "gonc4l_m3nd3s",
@@ -6545,8 +6803,13 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 8,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 0,
-    "TotalWarningReasons": []
+    "TotalWarnings": 4,
+    "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em gonc4l_m3nd3s com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em gonc4l_m3nd3s com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em esponja_loira4 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em gonc4l_m3nd3s com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+    ]
   },
   {
     "PlayerName": "EXD Rened",
@@ -6632,17 +6895,28 @@
         "BotKills": 0,
         "TeamHumanKills": 6,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 5,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em sergiopro_2011 com Rifle de Assalto \uD83D\uDD2B (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em EXD Rened com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em EXD Rened com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em EXD Rened com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em EXD Rened com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 5,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 6,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 6,
     "TotalWarningReasons": [
-      "Jogo 2: Foi eliminado por Tonity120hz com SMG \uD83D\uDD2B (Perda de 20 pontos)"
+      "Jogo 2: Foi eliminado por Tonity120hz com SMG \uD83D\uDD2B (Perda de 20 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em sergiopro_2011 com Rifle de Assalto \uD83D\uDD2B (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em EXD Rened com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em EXD Rened com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em EXD Rened com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em EXD Rened com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -6750,8 +7024,10 @@
         "BotKills": 0,
         "TeamHumanKills": 2,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Minichef9 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "TiagoSimoes83",
@@ -6781,8 +7057,10 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 5,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 0,
-    "TotalWarningReasons": []
+    "TotalWarnings": 1,
+    "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Minichef9 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)"
+    ]
   },
   {
     "PlayerName": "Sn0w_PT_",
@@ -6891,8 +7169,10 @@
         "BotKills": 0,
         "TeamHumanKills": 2,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Sn0w_PT_ com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "Sn0w_PT_",
@@ -6924,9 +7204,10 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 6,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em Sn0w_PT_ com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Sn0w_PT_ com Tempestade \uD83C\uDF00 (Perda de 1 pontos)",
       "Jogo 5: Efetuou elimina\u00E7\u00E3o proibida em Arte_Ksklh0 com Causa 38 \uD83C\uDF00 (C\u00F3digo 38)"
     ]
   },
@@ -6989,8 +7270,10 @@
         "BotKills": 0,
         "TeamHumanKills": 4,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em juliane_rafael com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "juliane_rafael",
@@ -7022,8 +7305,9 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 5,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 2,
     "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em juliane_rafael com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
       "Jogo 5: Efetuou elimina\u00E7\u00E3o proibida em juliane_rafael com Causa 38 \uD83C\uDF00 (C\u00F3digo 38)"
     ]
   },
@@ -7086,8 +7370,12 @@
         "BotKills": 0,
         "TeamHumanKills": 4,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 3,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Westrafael com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Westrafael com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Westrafael com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "Westrafael",
@@ -7117,8 +7405,12 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 5,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 0,
-    "TotalWarningReasons": []
+    "TotalWarnings": 3,
+    "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Westrafael com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Westrafael com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Westrafael com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+    ]
   },
   {
     "PlayerName": "Curumim15",
@@ -7225,16 +7517,22 @@
         "BotKills": 0,
         "TeamHumanKills": 3,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 2,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Curumim15 com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Curumim15 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 3,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 6,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 0,
-    "TotalWarningReasons": []
+    "TotalWarnings": 2,
+    "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Curumim15 com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Curumim15 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+    ]
   },
   {
     "PlayerName": "StomperGG",
@@ -7344,18 +7642,21 @@
         "BotKills": 0,
         "TeamHumanKills": 3,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em StomperGG com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 3,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 6,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Minimus13 com Causa 50 \uD83C\uDF00 (C\u00F3digo 50)",
-      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Minimus13 com Causa 50 \uD83C\uDF00 (C\u00F3digo 50)"
+      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Minimus13 com Causa 50 \uD83C\uDF00 (C\u00F3digo 50)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em StomperGG com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -7463,8 +7764,10 @@
         "BotKills": 0,
         "TeamHumanKills": 3,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Crossbox_Acor com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "Crossbox_Acor",
@@ -7496,8 +7799,9 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 5,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 2,
     "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Crossbox_Acor com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
       "Jogo 5: Efetuou elimina\u00E7\u00E3o proibida em Crossbox_Acor com Causa 38 \uD83C\uDF00 (C\u00F3digo 38)"
     ]
   },
@@ -7611,20 +7915,29 @@
         "BotKills": 0,
         "TeamHumanKills": 7,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 4,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em bea3z com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em bea3z com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em bea3z com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em bea3z com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 4,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 7,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 4,
+    "TotalWarnings": 8,
     "TotalWarningReasons": [
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Curumim15 com Causa 50 \uD83C\uDF00 (C\u00F3digo 50)",
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Curumim15 com Causa 50 \uD83C\uDF00 (C\u00F3digo 50)",
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Curumim15 com Causa 50 \uD83C\uDF00 (C\u00F3digo 50)",
-      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Curumim15 com Causa 50 \uD83C\uDF00 (C\u00F3digo 50)"
+      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em Curumim15 com Causa 50 \uD83C\uDF00 (C\u00F3digo 50)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em bea3z com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em bea3z com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em bea3z com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em bea3z com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -7736,8 +8049,10 @@
         "BotKills": 0,
         "TeamHumanKills": 1,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em touro_23 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "touro_23",
@@ -7767,10 +8082,11 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 6,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em touro_23 com Causa 38 \uD83C\uDF00 (Perda de 50 pontos)",
-      "Jogo 2: Foi eliminado por hugoandre10 com Desconhecido \uD83C\uDF00 (Perda de 20 pontos)"
+      "Jogo 2: Foi eliminado por hugoandre10 com Desconhecido \uD83C\uDF00 (Perda de 20 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em touro_23 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -8047,8 +8363,10 @@
         "BotKills": 0,
         "TeamHumanKills": 2,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Minichef9 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "Minichef9",
@@ -8078,9 +8396,10 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 6,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 2,
     "TotalWarningReasons": [
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Minichef9 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Minichef9 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Minichef9 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -8674,17 +8993,26 @@
         "BotKills": 0,
         "TeamHumanKills": 7,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 4,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Sofs_Rods com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Ze_doscaes com Rifle de Assalto \uD83D\uDD2B (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Kiko-Mafarrico com Rifle de Assalto \uD83D\uDD2B (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em TiagoSimoes83 com Pistola \uD83D\uDD2B (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 5,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 8,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 5,
     "TotalWarningReasons": [
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Sofs_Rods com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Sofs_Rods com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Sofs_Rods com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Ze_doscaes com Rifle de Assalto \uD83D\uDD2B (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Kiko-Mafarrico com Rifle de Assalto \uD83D\uDD2B (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em TiagoSimoes83 com Pistola \uD83D\uDD2B (Perda de 1 pontos)"
     ]
   },
   {
@@ -8771,17 +9099,24 @@
         "BotKills": 0,
         "TeamHumanKills": 7,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 3,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em HERO Kant7 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em quaresc com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em quaresc com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 4,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 8,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 4,
     "TotalWarningReasons": [
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em quaresc com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em quaresc com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em HERO Kant7 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em quaresc com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em quaresc com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -8892,8 +9227,12 @@
         "BotKills": 0,
         "TeamHumanKills": 5,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 3,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Luazinha2808 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Luazinha2808 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Luazinha2808 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "Luazinha2808",
@@ -8923,10 +9262,13 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 10,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 5,
     "TotalWarningReasons": [
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em Fr\u00E4nzchen7 com Causa 16 \uD83C\uDF00 (Perda de 50 pontos)",
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Luazinha2808 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Luazinha2808 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Luazinha2808 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Luazinha2808 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Luazinha2808 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -9547,8 +9889,10 @@
         "BotKills": 0,
         "TeamHumanKills": 5,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em NeonKillerPT com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "NeonKillerPT",
@@ -9578,8 +9922,10 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 5,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 0,
-    "TotalWarningReasons": []
+    "TotalWarnings": 1,
+    "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em NeonKillerPT com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+    ]
   },
   {
     "PlayerName": "original_sao8",
@@ -9690,18 +10036,31 @@
         "BotKills": 0,
         "TeamHumanKills": 7,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 6,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Onnana777 com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Minichef9 com Sniper \uD83C\uDFAF (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em zionW9 com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em o_5_do_momento com Sniper \uD83C\uDFAF (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em original_sao8 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em original_sao8 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 8,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 10,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 8,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em original_sao8 com Causa 38 \uD83C\uDF00 (Perda de 50 pontos)",
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em original_sao8 com Espingarda \uD83D\uDCA5 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em original_sao8 com Espingarda \uD83D\uDCA5 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Onnana777 com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Minichef9 com Sniper \uD83C\uDFAF (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em zionW9 com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em o_5_do_momento com Sniper \uD83C\uDFAF (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em original_sao8 com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em original_sao8 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -9813,18 +10172,21 @@
         "BotKills": 0,
         "TeamHumanKills": 7,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Rafa_Hash_7 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 3,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 10,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em Rafa_Hash_7 com Causa 38 \uD83C\uDF00 (Perda de 50 pontos)",
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Rafa_Hash_7 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Rafa_Hash_7 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Rafa_Hash_7 com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -9886,16 +10248,26 @@
         "BotKills": 0,
         "TeamHumanKills": 5,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 4,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Rodinhas_Cruz com Espingarda \uD83D\uDCA5 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Shadowladynight com Rifle de Assalto \uD83D\uDD2B (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em esponja_loira4 com Espingarda \uD83D\uDCA5 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em bea3z com Espingarda \uD83D\uDCA5 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 4,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 5,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 0,
-    "TotalWarningReasons": []
+    "TotalWarnings": 4,
+    "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Rodinhas_Cruz com Espingarda \uD83D\uDCA5 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Shadowladynight com Rifle de Assalto \uD83D\uDD2B (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em esponja_loira4 com Espingarda \uD83D\uDCA5 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em bea3z com Espingarda \uD83D\uDCA5 (Perda de 1 pontos)"
+    ]
   },
   {
     "PlayerName": "Mia90525",
@@ -10266,16 +10638,22 @@
         "BotKills": 0,
         "TeamHumanKills": 6,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 2,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em YoYoGhostPsycho com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Dani_Seal11 com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 2,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 6,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 0,
-    "TotalWarningReasons": []
+    "TotalWarnings": 2,
+    "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em YoYoGhostPsycho com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Dani_Seal11 com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)"
+    ]
   },
   {
     "PlayerName": "ilianesantospt",
@@ -10382,16 +10760,26 @@
         "BotKills": 0,
         "TeamHumanKills": 6,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 4,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em StomperGG com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Jogador com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Jogador com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Djinho80 com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 4,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 6,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 0,
-    "TotalWarningReasons": []
+    "TotalWarnings": 4,
+    "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em StomperGG com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Jogador com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Jogador com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Djinho80 com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)"
+    ]
   },
   {
     "PlayerName": "YoYoGhostPsycho",
@@ -10475,16 +10863,20 @@
         "BotKills": 0,
         "TeamHumanKills": 3,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 2,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 5,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 0,
-    "TotalWarningReasons": []
+    "TotalWarnings": 1,
+    "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em pirata_andryyxr com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)"
+    ]
   },
   {
     "PlayerName": "Djinho80",
@@ -10571,18 +10963,23 @@
         "BotKills": 0,
         "TeamHumanKills": 3,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 2,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Djinho80 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em gagagagabi-gago com Espingarda \uD83D\uDCA5 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 3,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 5,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 4,
     "TotalWarningReasons": [
       "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em dinis_pokemon1 com Causa 50 \uD83C\uDF00 (C\u00F3digo 50)",
-      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em touro_23 com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)"
+      "Jogo 3: Efetuou elimina\u00E7\u00E3o proibida em touro_23 com Desconhecido \uD83C\uDF00 (C\u00F3digo 0)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Djinho80 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em gagagagabi-gago com Espingarda \uD83D\uDCA5 (Perda de 1 pontos)"
     ]
   },
   {
@@ -10694,8 +11091,10 @@
         "BotKills": 0,
         "TeamHumanKills": 2,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em JMarceloCP com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "Vit\u00F3ria_142",
@@ -10725,10 +11124,11 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 3,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
       "Jogo 1: Efetuou elimina\u00E7\u00E3o em Vit\u00F3ria_142 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
-      "Jogo 2: Foi eliminado por JMarceloCP com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 20 pontos)"
+      "Jogo 2: Foi eliminado por JMarceloCP com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 20 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em JMarceloCP com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -10839,18 +11239,21 @@
         "BotKills": 0,
         "TeamHumanKills": 2,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Onnana777 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 3,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 5,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em Onnana777 com Causa 16 \uD83C\uDF00 (Perda de 50 pontos)",
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Hero_Tomas10 com Causa 16 \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Hero_Tomas10 com Causa 16 \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Onnana777 com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -10960,17 +11363,20 @@
         "BotKills": 0,
         "TeamHumanKills": 5,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em MANOS GeD com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 2,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 6,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 2,
     "TotalWarningReasons": [
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em MANOS GeD com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em MANOS GeD com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em MANOS GeD com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -11080,17 +11486,26 @@
         "BotKills": 0,
         "TeamHumanKills": 5,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 4,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Mano-D com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Mano-D com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Mano-D com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Mano-D com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 5,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 6,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 5,
     "TotalWarningReasons": [
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Mano-D com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em Mano-D com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Mano-D com Causa 50 \uD83C\uDF00 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Mano-D com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Mano-D com Torreta \uD83E\uDD16 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Mano-D com Torreta \uD83E\uDD16 (Perda de 1 pontos)"
     ]
   },
   {
@@ -11200,17 +11615,20 @@
         "BotKills": 0,
         "TeamHumanKills": 1,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Azores \u1D37\u2071\u207F\u1D4D\u1D3E\u1D40 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 2,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 2,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 1,
+    "TotalWarnings": 2,
     "TotalWarningReasons": [
-      "Jogo 2: Efetuou elimina\u00E7\u00E3o em santiboy2014 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)"
+      "Jogo 2: Efetuou elimina\u00E7\u00E3o em santiboy2014 com Tempestade \uD83C\uDF00 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Azores \u1D37\u2071\u207F\u1D4D\u1D3E\u1D40 com Causa 16 \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
@@ -12025,8 +12443,12 @@
         "BotKills": 0,
         "TeamHumanKills": 6,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 3,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em Jogador com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em Bananinha_27 com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em o_5_do_momento com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "ttk rafnzin",
@@ -12061,10 +12483,13 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 12,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 6,
+    "TotalWarnings": 9,
     "TotalWarningReasons": [
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em ttk rafnzin com Espingarda \uD83D\uDCA5 (Perda de 50 pontos)",
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em Bughacampeao com Espingarda \uD83D\uDCA5 (Perda de 50 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Jogador com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em Bananinha_27 com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em o_5_do_momento com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)",
       "Jogo 5: Efetuou elimina\u00E7\u00E3o proibida em Jogador com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (C\u00F3digo 8)",
       "Jogo 5: Efetuou elimina\u00E7\u00E3o proibida em Jogador com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (C\u00F3digo 8)",
       "Jogo 5: Efetuou elimina\u00E7\u00E3o proibida em Jogador com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (C\u00F3digo 8)",
@@ -12370,7 +12795,7 @@
     "TotalPlacementPoints": 0,
     "TotalVictoryRoyalePoints": 0,
     "TotalReboots": 0,
-    "TotalTeamReboots": 1,
+    "TotalTeamReboots": 0,
     "TotalRebootPoints": 0,
     "TotalDyingToPlayerPoints": 0,
     "TotalAdjustmentPoints": 0,
@@ -12438,7 +12863,7 @@
         "VictoryRoyale": false,
         "VictoryRoyalePoints": 0,
         "Reboots": 0,
-        "TeamReboots": 1,
+        "TeamReboots": 0,
         "RebootPoints": 0,
         "KilledByPlayer": false,
         "DyingToPlayerPoints": 0,
@@ -12861,16 +13286,22 @@
         "BotKills": 0,
         "TeamHumanKills": 2,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 2,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em EXD Rened com Rifle de Assalto \uD83D\uDD2B (Perda de 1 pontos)",
+          "Efetuou elimina\u00E7\u00E3o em \u1D56\u1D43\u02E1\u1D52\u1D50\u1D43 \u1D34\u1D43\u1D47\u2071\u1D47\u2071\u611B com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       }
     },
     "TotalHumanKills": 2,
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 2,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 0,
-    "TotalWarningReasons": []
+    "TotalWarnings": 2,
+    "TotalWarningReasons": [
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em EXD Rened com Rifle de Assalto \uD83D\uDD2B (Perda de 1 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em \u1D56\u1D43\u02E1\u1D52\u1D50\u1D43 \u1D34\u1D43\u1D47\u2071\u1D47\u2071\u611B com Desconhecido \uD83C\uDF00 (Perda de 1 pontos)"
+    ]
   },
   {
     "PlayerName": "sergiopro_2011",
@@ -13401,8 +13832,10 @@
         "BotKills": 0,
         "TeamHumanKills": 2,
         "TeamBotKills": 0,
-        "Warnings": 0,
-        "WarningReasons": []
+        "Warnings": 1,
+        "WarningReasons": [
+          "Efetuou elimina\u00E7\u00E3o em JMarceloCP com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
+        ]
       },
       "5": {
         "PlayerName": "JMarceloCP",
@@ -13432,10 +13865,11 @@
     "TotalBotKills": 0,
     "TotalTeamHumanKills": 4,
     "TotalTeamBotKills": 0,
-    "TotalWarnings": 2,
+    "TotalWarnings": 3,
     "TotalWarningReasons": [
       "Jogo 2: Efetuou elimina\u00E7\u00E3o em Vit\u00F3ria_142 com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 50 pontos)",
-      "Jogo 2: Foi eliminado por portela40 com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 20 pontos)"
+      "Jogo 2: Foi eliminado por portela40 com Picareta / Explosivos \uD83D\uDD28\uD83D\uDCA5 (Perda de 20 pontos)",
+      "Jogo 4: Efetuou elimina\u00E7\u00E3o em JMarceloCP com Tempestade \uD83C\uDF00 (Perda de 1 pontos)"
     ]
   },
   {
