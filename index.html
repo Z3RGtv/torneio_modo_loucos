@@ -1017,11 +1017,14 @@
 
                     let rebootsTd = isRebootActive ? `<td><span class="badge" style="background: rgba(168, 85, 247, 0.15); color: #a855f7; border: 1px solid rgba(168, 85, 247, 0.25);">💜 ${totalTeamReboots}</span></td>` : '';
 
+                    const totalManualAdjustments = p.totalManualAdjustments !== undefined ? p.totalManualAdjustments : (p.TotalManualAdjustments !== undefined ? p.TotalManualAdjustments : 0);
+                    const adjBadge = totalManualAdjustments !== 0 ? ` <span style="font-size: 0.75rem; color: ${totalManualAdjustments > 0 ? '#10b981' : '#ef4444'}; font-weight: bold; margin-left: 0.25rem;">⚖️ (${totalManualAdjustments > 0 ? '+' : ''}${totalManualAdjustments} pts)</span>` : '';
+
                     let rankClass = displayRank === 1 ? 'rank-1' : (displayRank === 2 ? 'rank-2' : (displayRank === 3 ? 'rank-3' : ''));
                     const tr = document.createElement('tr');
                     tr.innerHTML = `
                         <td class="rank ${rankClass}">${displayRank}º</td>
-                        <td class="player-name">${playerName}</td>
+                        <td class="player-name">${playerName}${adjBadge}</td>
                         <td><span class="badge" style="background: rgba(99, 102, 241, 0.15); color: var(--accent-primary); border: 1px solid rgba(99, 102, 241, 0.25);">${matchesCount}</span></td>
                         <td><span class="badge" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.25);">🏆 ${victoryRoyalesCount}</span></td>
                         <td><span class="badge" style="background: rgba(16, 185, 129, 0.15); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.25);">${teamKillsText}</span></td>
