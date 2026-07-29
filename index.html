@@ -452,7 +452,8 @@
         <!-- Navigation Tabs -->
         <div style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem;">
             <button id="public-tab-btn-lb" class="public-tab-btn active" onclick="switchPublicTab('lb')">🏆 Classificação Geral</button>
-            <button id="public-tab-btn-rules" class="public-tab-btn" onclick="switchPublicTab('rules')">📜 Regras dos Jogos</button>
+            <button id="public-tab-btn-history" class="public-tab-btn" onclick="switchPublicTab('history')">📜 Jogos Individuais</button>
+            <button id="public-tab-btn-rules" class="public-tab-btn" onclick="switchPublicTab('rules')">⚙️ Regras dos Jogos</button>
         </div>
 
         <!-- Leaderboard View -->
@@ -465,7 +466,6 @@
                             <th>Jogador</th>
                             <th>Jogos</th>
                             <th>Vitórias 🏆</th>
-                            <th>Kills Indiv.</th>
                             <th>Kills Equipa</th>
                             <th>Pontos Placement</th>
                             <th>Pontos Totais</th>
@@ -489,6 +489,28 @@
             <div id="public-rules-notes"></div>
             <div id="public-rules-display" class="rules-card-grid">
                 <!-- Rules cards injected here -->
+            </div>
+        </div>
+
+        <!-- Jogos Individuais View -->
+        <div id="public-view-history" class="card" style="display: none;">
+            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem;">
+                <h2 style="font-size: 1.3rem; font-weight: 800; color: #fff; margin: 0;">Resultados por Jogo</h2>
+                <div id="public-history-match-nav" style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                    <!-- Match selector buttons injected here -->
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table id="history-leaderboard-table">
+                    <thead>
+                        <tr id="history-table-header-tr">
+                            <!-- Headers dynamically set based on rules -->
+                        </tr>
+                    </thead>
+                    <tbody id="history-leaderboard-body">
+                        <tr><td colspan="10" style="text-align: center; color: var(--text-muted);">Seleciona um jogo acima.</td></tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
@@ -557,17 +579,23 @@
         let currentRulesObj = null;
         let activePublicTab = 'lb';
         let activeRulesMatchIdx = '1';
+        let activeHistoryMatchIdx = '1';
+        let cachedLeaderboardData = null;
 
         function switchPublicTab(tab) {
             activePublicTab = tab;
             document.getElementById('public-tab-btn-lb').classList.toggle('active', tab === 'lb');
+            document.getElementById('public-tab-btn-history').classList.toggle('active', tab === 'history');
             document.getElementById('public-tab-btn-rules').classList.toggle('active', tab === 'rules');
 
             document.getElementById('public-view-lb').style.display = tab === 'lb' ? 'block' : 'none';
+            document.getElementById('public-view-history').style.display = tab === 'history' ? 'block' : 'none';
             document.getElementById('public-view-rules').style.display = tab === 'rules' ? 'block' : 'none';
 
             if (tab === 'rules') {
                 renderPublicRules(activeRulesMatchIdx);
+            } else if (tab === 'history') {
+                renderHistoryMatch(activeHistoryMatchIdx);
             }
         }
 
@@ -760,6 +788,144 @@
             container.innerHTML = killHtml + placementHtml + extraHtml;
         }
 
+        function renderHistoryMatch(selectedMatchIdx = "1") {
+            activeHistoryMatchIdx = selectedMatchIdx.toString();
+            if (!cachedLeaderboardData) return;
+
+            // Find all available matches from players' MatchScores
+            const allMatchKeys = new Set();
+            cachedLeaderboardData.forEach(p => {
+                const scores = p.MatchScores || p.matchScores || {};
+                Object.keys(scores).forEach(k => allMatchKeys.add(k.toString()));
+            });
+            const matchKeys = Array.from(allMatchKeys).sort((a, b) => parseInt(a) - parseInt(b));
+            if (matchKeys.length === 0) return;
+
+            if (!matchKeys.includes(activeHistoryMatchIdx)) {
+                activeHistoryMatchIdx = matchKeys[0];
+            }
+
+            // Render navigation buttons for matches
+            const navContainer = document.getElementById('public-history-match-nav');
+            if (navContainer) {
+                navContainer.innerHTML = '';
+                matchKeys.forEach(m => {
+                    const mRuleItem = (currentRulesObj && currentRulesObj.matches) ? currentRulesObj.matches[m] : null;
+                    const customName = mRuleItem && mRuleItem.name ? mRuleItem.name : `Jogo ${m}`;
+                    const btnLabel = (customName.toLowerCase().startsWith('jogo ') || customName.toLowerCase().startsWith('jogo:')) ? customName : `Jogo ${m}: ${customName}`;
+                    
+                    const btn = document.createElement('button');
+                    btn.className = `public-match-selector-btn ${m === activeHistoryMatchIdx ? 'active' : ''}`;
+                    btn.innerText = btnLabel;
+                    btn.onclick = () => renderHistoryMatch(m);
+                    navContainer.appendChild(btn);
+                });
+            }
+
+            // Build individual match leaderboard for activeHistoryMatchIdx
+            const playersInMatch = [];
+            cachedLeaderboardData.forEach(p => {
+                const scores = p.MatchScores || p.matchScores || {};
+                const mScore = scores[activeHistoryMatchIdx];
+                if (mScore) {
+                    playersInMatch.push({
+                        player: p,
+                        score: mScore,
+                        playerName: p.playerName || p.PlayerName || '',
+                        totalPoints: mScore.TotalPoints !== undefined ? mScore.TotalPoints : (mScore.totalPoints || 0)
+                    });
+                }
+            });
+
+            // Sort players by match total points descending
+            playersInMatch.sort((a, b) => b.totalPoints - a.totalPoints);
+
+            // Check if bot distinction or reboot distinction is active for this match
+            const activeMatchRule = (currentRulesObj && currentRulesObj.matches) ? currentRulesObj.matches[activeHistoryMatchIdx] : null;
+            const isBotDistinctionActive = activeMatchRule ? activeMatchRule.distinguishBotKills === true : false;
+            const isRebootActive = activeMatchRule ? (activeMatchRule.distinguishReboots === true || (activeMatchRule.pointsPerReboot && activeMatchRule.pointsPerReboot > 0)) : false;
+
+            // Set headers
+            const headerTr = document.getElementById('history-table-header-tr');
+            if (headerTr) {
+                headerTr.innerHTML = `
+                    <th>Pos</th>
+                    <th>Jogador</th>
+                    <th>Kills Equipa</th>
+                    <th>Pontos Kills</th>
+                    <th>Colocação</th>
+                    <th>Pontos Placement</th>
+                    ${isRebootActive ? '<th>Reboots 💜</th>' : ''}
+                    <th>Pontos Totais</th>
+                `;
+            }
+
+            const body = document.getElementById('history-leaderboard-body');
+            body.innerHTML = '';
+
+            if (playersInMatch.length === 0) {
+                body.innerHTML = `<tr><td colspan="${isRebootActive ? 9 : 8}" style="text-align: center; color: var(--text-muted);">Nenhum dado para este jogo.</td></tr>`;
+                return;
+            }
+
+            let rank = 1;
+            let displayRank = 1;
+            let prevPoints = -1;
+
+            playersInMatch.forEach(item => {
+                const p = item.player;
+                const mScore = item.score;
+                const playerName = item.playerName;
+                const totalPoints = item.totalPoints;
+
+                if (prevPoints !== -1 && totalPoints < prevPoints) {
+                    displayRank = rank;
+                }
+                prevPoints = totalPoints;
+
+                // Human and bot kills
+                const humanKills = mScore.HumanKills !== undefined ? mScore.HumanKills : (mScore.humanKills || 0);
+                const botKills = mScore.BotKills !== undefined ? mScore.BotKills : (mScore.botKills || 0);
+                const totalKills = humanKills + botKills;
+                
+                const teamKills = mScore.Kills !== undefined ? mScore.Kills : (mScore.kills || 0);
+                const teamHumanKills = mScore.TeamHumanKills !== undefined ? mScore.TeamHumanKills : (mScore.teamHumanKills || teamKills);
+                const teamBotKills = mScore.TeamBotKills !== undefined ? mScore.TeamBotKills : (mScore.teamBotKills || 0);
+
+                const killPoints = mScore.KillPoints !== undefined ? mScore.KillPoints : (mScore.killPoints || 0);
+                const placementVal = mScore.Placement !== undefined ? mScore.Placement : (mScore.placement || 0);
+                const placementPoints = mScore.PlacementPoints !== undefined ? mScore.PlacementPoints : (mScore.placementPoints || 0);
+                const reboots = mScore.Reboots !== undefined ? mScore.Reboots : (mScore.reboots || 0);
+                const rebootPoints = mScore.RebootPoints !== undefined ? mScore.RebootPoints : (mScore.rebootPoints || 0);
+
+                const indivKillsText = isBotDistinctionActive ? `${totalKills} <span style="font-size:0.75rem; opacity:0.7;">(${humanKills}H / ${botKills}B)</span>` : `${totalKills}`;
+                const teamKillsText = isBotDistinctionActive ? `${teamKills} <span style="font-size:0.75rem; opacity:0.7;">(${teamHumanKills}H / ${teamBotKills}B)</span>` : `${teamKills}`;
+
+                let rebootsTd = isRebootActive ? `<td><span class="badge" style="background: rgba(168, 85, 247, 0.15); color: #a855f7; border: 1px solid rgba(168, 85, 247, 0.25);">💜 ${reboots} (${rebootPoints} pts)</span></td>` : '';
+
+                let rankClass = displayRank === 1 ? 'rank-1' : (displayRank === 2 ? 'rank-2' : (displayRank === 3 ? 'rank-3' : ''));
+                
+                const adjustmentPoints = mScore.AdjustmentPoints !== undefined ? mScore.AdjustmentPoints : (mScore.adjustmentPoints || 0);
+                const adjText = adjustmentPoints !== 0 ? ` <span style="font-size: 0.75rem; color: ${adjustmentPoints > 0 ? '#10b981' : '#ef4444'}; font-weight: bold; margin-left: 0.25rem;">(${adjustmentPoints > 0 ? '+' : ''}${adjustmentPoints} ⚖️)</span>` : '';
+
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td class="rank ${rankClass}">${displayRank}º</td>
+                    <td class="player-name">${playerName}</td>
+                    <td><span class="badge" style="background: rgba(16, 185, 129, 0.15); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.25);">${teamKillsText}</span></td>
+                    <td>${killPoints} pts</td>
+                    <td><span class="badge" style="background: rgba(59, 130, 246, 0.15); color: #3b82f6; border: 1px solid rgba(59, 130, 246, 0.25);">${placementVal}º</span></td>
+                    <td>${placementPoints} pts</td>
+                    ${rebootsTd}
+                    <td class="points-col">${totalPoints} pts${adjText}</td>
+                `;
+                tr.style.cursor = 'pointer';
+                tr.onclick = () => openPlayerDrawer(p, cachedLeaderboardData);
+                body.appendChild(tr);
+                rank++;
+            });
+        }
+
         async function loadPublicData() {
             try {
                 try {
@@ -803,7 +969,6 @@
                             <th>Jogador</th>
                             <th>Jogos</th>
                             <th>Vitórias 🏆</th>
-                            <th>Kills Indiv.</th>
                             <th>Kills Equipa</th>
                             <th>Pontos Kills</th>
                             <th>Placement</th>
@@ -816,7 +981,6 @@
                             <th>Jogador</th>
                             <th>Jogos</th>
                             <th>Vitórias 🏆</th>
-                            <th>Kills Indiv.</th>
                             <th>Kills Equipa</th>
                             <th>Pontos Kills</th>
                             <th>Placement</th>
@@ -860,7 +1024,6 @@
                         <td class="player-name">${playerName}</td>
                         <td><span class="badge" style="background: rgba(99, 102, 241, 0.15); color: var(--accent-primary); border: 1px solid rgba(99, 102, 241, 0.25);">${matchesCount}</span></td>
                         <td><span class="badge" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.25);">🏆 ${victoryRoyalesCount}</span></td>
-                        <td><span class="badge" style="background: rgba(255,255,255,0.08); color: #cbd5e1; border: 1px solid rgba(255,255,255,0.08);">${indivKillsText}</span></td>
                         <td><span class="badge" style="background: rgba(16, 185, 129, 0.15); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.25);">${teamKillsText}</span></td>
                         <td>${totalKillPoints} pts</td>
                         <td>${totalPlacementPoints} pts</td>
@@ -872,6 +1035,11 @@
                     body.appendChild(tr);
                     rank++;
                 });
+
+                cachedLeaderboardData = leaderboard;
+                if (activePublicTab === 'history') {
+                    renderHistoryMatch(activeHistoryMatchIdx);
+                }
             } catch (err) {
                 console.error('Erro ao ler dados da classificação:', err);
             }
